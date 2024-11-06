@@ -16,20 +16,21 @@ type config = {
 };
 
 const data: config = {
-  name: "HACKATHON",
-  short_name: "Hackathon Site",
-  email: "contact.acmucr@gmail.com",
-  description: "DESCRIPTION",
+  name: "CutieHack",
+  short_name: "CutieHack",
+  email: "citrushack@gmail.com",
+  description:
+    "Cutie Hack is a 12-hour, beginner-oriented hackathon hosted by students at University of California, Riverside where hackers are challenged to create a cool project within the time frame to demo in order to win awesome prizes and participate in workshops, fun games, and networking.",
   length: 24,
-  date: new Date("2024-04-12T13:20:00"),
-  end: new Date("2024-04-12T13:20:00"),
+  date: new Date("2024-11-16T13:20:00"),
+  end: new Date("2024-04-11T13:20:00"),
   packet: "",
   devpost: "https://devpost.com/",
   domain: "https://www.placeholder.com",
   instagram: "https://www.instagram.com",
   linkedin: "https://www.linkedin.com",
   discord: "https://www.discord.com",
-  heart: "🤎",
+  heart: "🧡",
 };
 
 export default data;
