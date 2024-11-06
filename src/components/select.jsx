@@ -107,9 +107,7 @@ const Select = ({
             {selected ? (
               selected
             ) : (
-              <p className="font-normal text-hackathon-gray-200">
-                {placeholder}
-              </p>
+              <p className="font-normal text-cutie-violet">{placeholder}</p>
             )}
             <ChevronDown />
           </Button>
