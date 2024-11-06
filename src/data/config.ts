@@ -28,7 +28,7 @@ const data: config = {
   devpost: "https://devpost.com/",
   domain: "https://www.cutiehack.com",
   instagram: "https://www.instagram.com/cutiehack_ucr/",
-  linkedin: "https://www.linkedin.com",
+  linkedin: "https://www.linkedin.com/company/citrus-hack/",
   discord: "https://www.discord.com",
   heart: "🧡",
 };
