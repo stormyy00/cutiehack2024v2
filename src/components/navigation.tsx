@@ -1,7 +1,7 @@
 "use client";
 
 import { useState } from "react";
-import LOGO from "@/app/favicon.ico";
+import LOGO from "@/public/assets/cutieLogo.svg";
 import Image from "next/image";
 import Link from "next/link";
 import { TABS } from "@/data/navigation";
@@ -62,9 +62,9 @@ const Navigation = () => {
           expand ? "fixed left-0 h-screen w-1/2 pt-5" : `hidden`
         }`}
       >
-        <div className="grid h-full w-full grid-cols-1 grid-rows-10 flex-col place-items-center bg-hackathon-blue-200">
+        <div className="grid h-full w-full grid-cols-1 grid-rows-10 flex-col place-items-center bg-cutie-blue-300">
           <div className="items-center lg:flex">
-            <Image src={LOGO} className="h-10 w-10" alt={`${data.name} Logo`} />
+            <Image src={LOGO} className="h-24 w-24" alt={`${data.name} Logo`} />
           </div>
           <Accordion
             defaultValue={["Dashboards", "Services", "Portal"]}
@@ -88,8 +88,8 @@ const Navigation = () => {
                           onClick={() => setExpand(false)}
                           className={`flex w-full items-center justify-start py-1 pl-[10%] [&>*]:text-white ${
                             pathName.endsWith(tab.link)
-                              ? "bg-hackathon-blue-100"
-                              : "hover:bg-hackathon-blue-100"
+                              ? "bg-gradient-to-r from-transparent to-cutie-violet font-semibold"
+                              : "from-transparent to-cutie-violet hover:bg-gradient-to-r"
                           }`}
                         >
                           {tab.icon}
