@@ -56,7 +56,8 @@ const Template = ({ children, name, preview }) => {
               <span className="font-semibold text-white">{name}</span>. If you
               were not expecting this email, you can ignore this email. If you
               are concerned about your account&apos;s safety, please contact{" "}
-              {data.email} to get in touch with us.
+              <span className="text-cutie-magenta"> {data.email} </span> to get
+              in touch with us.
             </Text>
           </Container>
         </Body>
