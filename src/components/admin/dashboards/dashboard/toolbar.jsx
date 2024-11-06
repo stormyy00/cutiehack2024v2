@@ -159,6 +159,7 @@ const Toolbar = ({
       <div className="flex gap-3">
         {tags.map((tag, index) => (
           <Button
+            variant="submit"
             key={index}
             onClick={() => onClick(tag.value)}
             className="text-nowrap"

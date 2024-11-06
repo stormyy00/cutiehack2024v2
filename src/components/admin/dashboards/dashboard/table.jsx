@@ -86,7 +86,7 @@ const Table = ({
                   ({ id, getVisibleCells, getIsSelected }) => (
                     <TableRow
                       key={id}
-                      className={`${getIsSelected() && "bg-hackathon-green-100"}`}
+                      className={`${getIsSelected() && "bg-gradient-to-r from-cutie-purple-100 to-transparent font-semibold"}`}
                     >
                       {getVisibleCells().map(({ id, column, getContext }) => (
                         <TableCell key={id}>
