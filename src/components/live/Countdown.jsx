@@ -1,6 +1,6 @@
 "use client";
 import { useState, useEffect } from "react";
-import data from "/src/data/Config";
+import data from "@/data/config";
 
 const Digits = ({ value, unit }) => {
   return (
