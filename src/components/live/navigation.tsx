@@ -1,6 +1,6 @@
 "use client";
 
-import { signIn, useSession } from "next-auth/react";
+// import { signIn, useSession } from "next-auth/react";
 import Link from "next/link";
 import { items } from "@/data/live/navigation";
 import { useState } from "react";
@@ -8,11 +8,11 @@ import { Menu } from "lucide-react";
 import { Link as Scroll } from "react-scroll";
 
 const Navigation = () => {
-  const { data: session } = useSession();
+  //   const { data: session } = useSession();
   const [isOpen, setIsOpen] = useState(false);
 
   return (
-    <div className="sticky top-0 z-20 flex items-center justify-between bg-cutie-blue-300 p-5 font-semibold text-white">
+    <div className="sticky top-0 z-30 flex items-center justify-between bg-cutie-blue-300 p-5 font-semibold text-white">
       {/* Desktop Nav */}
       <div className="hidden w-full justify-evenly md:flex">
         {items.map((item, index) => (
@@ -28,7 +28,13 @@ const Navigation = () => {
             {item.name}
           </Scroll>
         ))}
-        {session ? (
+        <Link
+          href={"/form/participant"}
+          className="border-custom-white hover:drop-shadow-[0_10px_1px_rgba(255, 255, 255, 0.5)] border p-1 px-2 shadow-custom-white duration-200"
+        >
+          REGISTER
+        </Link>
+        {/* {session ? (
           Object.keys(session.user.roles).includes("participants") && (
             <Link
               href={"/user"}
@@ -44,7 +50,7 @@ const Navigation = () => {
           >
             LOGIN
           </div>
-        )}
+        )} */}
       </div>
 
       {/* Mobile Nav */}
@@ -70,7 +76,13 @@ const Navigation = () => {
               {item.name}
             </Scroll>
           ))}
-          {session ? (
+          <Link
+            href={"/form/participant"}
+            className="border-custom-white mt-2 w-fit border p-1 px-2 text-center shadow-custom-white"
+          >
+            REGISTER
+          </Link>
+          {/* {session ? (
             Object.keys(session.user.roles).includes("participants") && (
               <Link
                 href={"/user"}
@@ -90,7 +102,7 @@ const Navigation = () => {
             >
               LOGIN
             </div>
-          )}
+          )} */}
         </div>
       )}
     </div>
