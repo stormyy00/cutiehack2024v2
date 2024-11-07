@@ -12,7 +12,7 @@ const Navigation = () => {
     <div className="fixed top-0 z-10 w-screen text-2xl text-white">
       <div className="flex w-full items-center justify-between bg-hackathon-blue-200 px-4 py-4">
         <div className="flex gap-2">
-          <Image src={Logo} className="w-8" alt="Logo" />
+          <Image src={Logo} className="h-16 w-16" alt="Logo" />
           <Link href="/engineering">Hackathon Engineering</Link>
         </div>
         <div className="hidden md:flex">
