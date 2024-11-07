@@ -18,11 +18,11 @@ import yellowStar from "@/public/assets/betterYellowStar.svg";
 
 const Sponsors = () => {
   return (
-    <div className="px-50 bg-cutie-blue-300 sm:px-[107px]">
+    <div className="z-30 flex w-full flex-col items-center bg-cutie-blue-300">
       <div className="flex flex-col items-center justify-center">
         <Title text={"Sponsors"} subtext={"Thank you so much!"} />
       </div>
-      <div className="grid grid-cols-1 gap-20 md:grid-cols-2 lg:grid-cols-3">
+      <div className="my-7 grid w-11/12 scale-90 grid-cols-1 gap-20 md:scale-100 md:grid-cols-2 lg:grid-cols-3">
         <div className="relative">
           <Image
             src={swirl}
@@ -96,7 +96,7 @@ const Sponsors = () => {
         </div>
       </div>
 
-      <div className="">
+      <div className="w-full">
         <div className="lg:px[900px] relative grid grid-cols-1 lg:grid-cols-2">
           <Image
             src={rightswirl}
@@ -157,22 +157,24 @@ const Sponsors = () => {
               className="z-1 absolute left-[50px] top-[130px] h-[240px] w-[190px] object-fill md:left-[50px] lg:left-[50px]"
             />
           </div>
-          <div className="ml-[120px] mt-3 w-[200px] lg:ml-[595px]">
-            <Image
-              src={yellowStar}
-              alt="star"
-              className="z-15 absolute bottom-[200px] ml-[130px] w-[50px] scale-125 object-fill"
-            />
-            <Image
-              src={wolfLogo}
-              alt="wolf"
-              className="z-15 absolute bottom-[110px] ml-[50px] w-[100px] scale-125 object-fill"
-            />
-            <Image
-              src={ellipse}
-              alt="Cover"
-              className="-mt-2 h-[300px] w-[300px] object-fill"
-            />
+          <div className="w-full">
+            <div className="ml-[120px] mt-3 w-[200px] lg:ml-[595px]">
+              <Image
+                src={yellowStar}
+                alt="star"
+                className="z-15 absolute bottom-[200px] ml-[130px] w-[50px] scale-125 object-fill"
+              />
+              <Image
+                src={wolfLogo}
+                alt="wolf"
+                className="z-15 absolute bottom-[110px] ml-[50px] w-[100px] scale-125 object-fill"
+              />
+              <Image
+                src={ellipse}
+                alt="Cover"
+                className="-mt-2 h-[300px] w-[300px] object-fill"
+              />
+            </div>
           </div>
         </div>
       </div>

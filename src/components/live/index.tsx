@@ -26,7 +26,7 @@ const Live = () => {
       <Judges /> */}
       <FAQ />
       <Footer />
-      <Stars length={500} />
+      <Stars length={700} />
     </div>
   );
 };
