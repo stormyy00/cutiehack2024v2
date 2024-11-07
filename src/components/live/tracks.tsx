@@ -4,21 +4,27 @@ import { TRACKS } from "@/data/live/tracks";
 
 const Tracks = () => {
   return (
-    <div className="-mt-1 flex h-screen flex-col items-center justify-center gap-10 bg-cutie-blue-300 py-10 font-righteous">
+    <div className="mt-[12vh] flex h-full flex-col items-center justify-center gap-0 bg-cutie-blue-300 py-10 font-righteous">
       <Title text="Tracks" subtext="" />
-      <div className="grid grid-cols-1 gap-8 md:grid-cols-3">
+      <div className="grid w-10/12 grid-cols-1 gap-0 overflow-auto md:grid-cols-3">
         {TRACKS.map((track, index) => (
           <div
             key={index}
-            className="flex flex-col items-center text-center text-white"
+            className="relative flex flex-col items-center text-center text-white"
           >
             <Image
               src={track.image}
               alt={track.title}
-              className="h-[200px] w-[100px]"
+              className={`w-5/12 md:w-full ${track.className}`}
             />
-            <h2 className="mt-4 text-xl font-semibold">{track.title}</h2>
-            <p className="mt-2 px-4">{track.description}</p>
+            <div className={`absolute text-center ${track.text}`}>
+              <h2 className="mt-4 w-full text-base font-semibold md:w-3/5 md:text-2xl">
+                {track.title}
+              </h2>
+              <p className="mt-2 w-full px-4 text-xs md:w-3/5 md:text-sm">
+                {track.description}
+              </p>
+            </div>
           </div>
         ))}
       </div>
