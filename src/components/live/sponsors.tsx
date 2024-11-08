@@ -27,7 +27,7 @@ const Sponsors = () => {
           <Image
             src={swirl}
             alt="Cover"
-            className="top[200px] rotate-220 absolute -left-[130px] h-[1000px] w-[1500px]"
+            className="rotate-220 absolute -left-[130px] hidden h-[1000px] w-[1500px] md:block"
           />
           <Image
             src={orangeGalaxy}
@@ -96,12 +96,12 @@ const Sponsors = () => {
         </div>
       </div>
 
-      <div className="w-full">
+      <div className="relative w-full">
         <div className="lg:px[900px] relative grid grid-cols-1 lg:grid-cols-2">
           <Image
             src={rightswirl}
             alt="Cover"
-            className="top[200px] rotate-220 absolute z-0 h-[800px] w-[850px] lg:ml-[720px]"
+            className="rotate-220 absolute right-0 z-0 hidden w-[30%] overflow-auto md:block"
           />
           <div className="relative mb-10 ml-[70px] w-[270px] lg:ml-[270px]">
             <Image
@@ -157,8 +157,8 @@ const Sponsors = () => {
               className="z-1 absolute left-[50px] top-[130px] h-[240px] w-[190px] object-fill md:left-[50px] lg:left-[50px]"
             />
           </div>
-          <div className="w-full">
-            <div className="ml-[120px] mt-3 w-[200px] lg:ml-[595px]">
+          <div className="flex w-full justify-center md:block">
+            <div className="mt-3 w-[200px] md:ml-[120px] lg:ml-[595px]">
               <Image
                 src={yellowStar}
                 alt="star"
