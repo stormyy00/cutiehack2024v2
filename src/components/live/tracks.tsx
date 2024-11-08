@@ -10,7 +10,7 @@ const Tracks = () => {
         {TRACKS.map((track, index) => (
           <div
             key={index}
-            className="relative flex w-1/2 flex-col items-center text-center text-white md:w-1/3 animate-jiggle-12s z-30"
+            className="relative z-30 flex w-1/2 animate-jiggle-12s flex-col items-center text-center text-white md:w-1/3"
           >
             <Image
               src={track.image}
