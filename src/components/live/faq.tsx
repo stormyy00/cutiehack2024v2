@@ -12,7 +12,7 @@ const FAQ = () => {
   return (
     <div
       id="faq"
-      className="flex w-full flex-col items-center bg-cutie-blue-300 py-10 font-righteous text-white"
+      className="w-ffull flex flex-col items-center bg-cutie-blue-300 py-10 font-righteous text-white"
     >
       <div className="z-50 flex items-center justify-center gap-2 py-4 align-middle text-7xl">
         <h1>F</h1>
