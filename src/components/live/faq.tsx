@@ -14,7 +14,7 @@ const FAQ = () => {
       id="faq"
       className="w-ffull flex flex-col items-center bg-cutie-blue-300 py-10 font-righteous text-white"
     >
-      <div className="z-50 flex items-center justify-center gap-2 py-4 align-middle text-7xl">
+      <div className="z-30 flex items-center justify-center gap-2 py-4 align-middle text-7xl">
         <h1>F</h1>
         <Image
           src={UFO}
