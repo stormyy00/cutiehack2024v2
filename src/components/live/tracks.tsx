@@ -18,10 +18,10 @@ const Tracks = () => {
               className={`w-full scale-125 overflow-hidden md:scale-100 md:overflow-visible ${track.className}`}
             />
             <div className={`absolute text-center ${track.text}`}>
-              <h2 className="mt-4 w-full text-xs font-semibold md:w-3/5 md:text-xl">
+              <h2 className="mt-4 w-full text-xs font-semibold md:w-3/5 md:text-xl lg:text-xl 2xl:text-2xl">
                 {track.title}
               </h2>
-              <p className="mt-2 w-full px-0 text-[7px] md:w-3/5 md:text-sm">
+              <p className="mt-2 w-full px-0 text-[7px] md:w-3/5 md:text-sm lg:text-sm 2xl:text-lg">
                 {track.description}
               </p>
             </div>
