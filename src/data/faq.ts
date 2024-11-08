@@ -50,6 +50,7 @@ export const QUESTIONS: QuestionAnswer[] = [
   },
   {
     question: "Where will I submit?",
-    answer: "Devpost. We will tell provide guidence on submission as well!",
+    answer:
+      "Devpost. We will provide guidence on how to submit during the hackathon!",
   },
 ];
