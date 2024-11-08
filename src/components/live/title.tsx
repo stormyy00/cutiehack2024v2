@@ -22,7 +22,7 @@ const Title = ({ text, subtext }: { text: string; subtext: string }) => {
         <Image
           src={White}
           alt="White star"
-          className="absolute -right-[41%] top-[22%] w-[33%] md:-right-[33%] md:w-fit"
+          className="absolute -right-[41%] top-[22%] w-[30%] md:-right-[33%] md:w-fit"
         />
         <Image
           src={Star}
@@ -32,7 +32,7 @@ const Title = ({ text, subtext }: { text: string; subtext: string }) => {
         <Image
           src={White}
           alt="White star"
-          className="absolute -left-[44%] bottom-[27%] w-[33%] md:-left-[32%] md:w-fit"
+          className="absolute -left-[44%] bottom-[27%] w-[30%] md:-left-[32%] md:w-fit"
         />
       </div>
     </div>
