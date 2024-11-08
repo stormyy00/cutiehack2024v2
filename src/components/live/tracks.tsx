@@ -4,7 +4,10 @@ import { TRACKS } from "@/data/live/tracks";
 
 const Tracks = () => {
   return (
-    <div className="mt-[12vh] flex flex-col items-center justify-center gap-0 overflow-x-hidden bg-cutie-blue-300 py-10 font-righteous md:overflow-visible">
+    <div
+      id="tracks"
+      className="mt-[12vh] flex flex-col items-center justify-center gap-0 overflow-x-hidden bg-cutie-blue-300 py-10 font-righteous md:overflow-visible"
+    >
       <Title text="Tracks" subtext="" />
       <div className="ml-8 flex w-9/12 flex-wrap justify-center gap-y-10 md:ml-0">
         {TRACKS.map((track, index) => (

@@ -9,11 +9,11 @@ export const items = [
     link: "#about",
     id: "about",
   },
-  // {
-  //   name: "TRACKS",
-  //   link: "#tracks",
-  //   id: "tracks",
-  // },
+  {
+    name: "TRACKS",
+    link: "#tracks",
+    id: "tracks",
+  },
   {
     name: "SCHEDULE",
     link: "#schedule",
