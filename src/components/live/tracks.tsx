@@ -10,7 +10,7 @@ const Tracks = () => {
         {TRACKS.map((track, index) => (
           <div
             key={index}
-            className="relative flex w-1/2 flex-col items-center text-center text-white md:w-1/3"
+            className="relative flex w-1/2 flex-col items-center text-center text-white md:w-1/3 animate-jiggle-12s z-30"
           >
             <Image
               src={track.image}
@@ -18,7 +18,7 @@ const Tracks = () => {
               className={`w-full scale-125 md:scale-100 ${track.className}`}
             />
             <div className={`absolute text-center ${track.text}`}>
-              <h2 className="mt-4 w-full text-xs font-semibold md:w-3/5 md:text-2xl">
+              <h2 className="mt-4 w-full text-xs font-semibold md:w-3/5 md:text-xl">
                 {track.title}
               </h2>
               <p className="mt-2 w-full px-0 text-[7px] md:w-3/5 md:text-sm">
