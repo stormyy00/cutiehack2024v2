@@ -5,7 +5,7 @@ const Toolbar = ({ onFilterChange }) => {
 
   return (
     <div className="flex items-center justify-end">
-      <div className="flex rounded-md border-2 bg-white">
+      <div className="flex rounded-md border-2 font-righteous">
         <button
           onClick={() => {
             setSelected("all");
@@ -13,7 +13,7 @@ const Toolbar = ({ onFilterChange }) => {
           }}
           className={`m-0.5 px-3 py-1 ${
             selected === "all"
-              ? "rounded bg-hackathon-green-300 text-white"
+              ? "rounded bg-cutie-violet text-white"
               : "bg-white text-black"
           }`}
         >
@@ -26,7 +26,7 @@ const Toolbar = ({ onFilterChange }) => {
           }}
           className={`m-0.5 px-3 py-1 ${
             selected === "hackweek"
-              ? "rounded bg-hackathon-green-300 text-white"
+              ? "rounded bg-cutie-violet text-white"
               : "bg-white text-black"
           }`}
         >
@@ -39,7 +39,7 @@ const Toolbar = ({ onFilterChange }) => {
           }}
           className={`m-0.5 px-3 py-1 ${
             selected === "hackathon"
-              ? "rounded bg-hackathon-green-300 text-white"
+              ? "rounded bg-cutie-violet text-white"
               : "bg-white text-black"
           }`}
         >
