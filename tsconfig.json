@@ -28,7 +28,7 @@
     "**/*.tsx",
     ".next/types/**/*.ts",
     "src/utils/signin.ts",
-    "src/components/live/Countdown.jsx"
+    "src/components/live/countdown.tsx"
   ],
   "exclude": ["node_modules"]
 }

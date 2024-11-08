@@ -12,7 +12,7 @@ const list: string[] = [
 // note
 const Packing = (): React.ReactNode => {
   return (
-    <div className="my-3 rounded-lg bg-white p-3 shadow-xl">
+    <div className="my-3 rounded-lg bg-cutie-violet p-3 shadow-xl">
       <div className="p-2 font-bold" data-cy="packing-title">
         🎒Packing List
       </div>
