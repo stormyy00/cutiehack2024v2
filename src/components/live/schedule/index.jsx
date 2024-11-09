@@ -19,20 +19,19 @@ const Schedule = async () => {
   const totalDays = items ? [...new Set(items.map(({ day }) => day))] : [];
 
   return (
-    <>
+    <div className="h-scroll">
+      <div className="mb-40 flex justify-center">
+        <Title text={"Schedule"} />
+      </div>
       <div
         id="schedule"
-        className="flex h-screen flex-col items-center justify-center gap-8 bg-cutie-blue-300 pb-24 font-righteous text-sm lg:text-base"
+        className="w-30 flex flex-col items-center justify-center gap-8 bg-cutie-blue-300 pb-20 font-righteous text-sm lg:text-base"
       >
-        <div className="mb-40">
-          <Title text={"Schedule"} />
-        </div>
-
         <div className="text-md rounded-3xl border-8 border-[#9E0C7A] bg-[#61114D] font-righteous text-white">
           <Events events={items} totalDays={totalDays} />
         </div>
       </div>
-    </>
+    </div>
   );
 };
 

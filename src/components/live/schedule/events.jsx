@@ -13,8 +13,8 @@ const Events = ({ events, totalDays }) => {
 
   return (
     <div className="relative flex flex-col items-center justify-center">
-      <div className="w-full">
-        <div className="absolute mx-auto -mt-[90px] ml-[100px] grid grid-cols-6 items-center justify-between rounded border-2 text-base">
+      <div className="w-100 absolute -top-20 h-full">
+        <div className="mx-auto grid grid-cols-6 items-center justify-between rounded border-2 text-base">
           {totalDays.map((day) => (
             <button
               key={day}
@@ -30,18 +30,18 @@ const Events = ({ events, totalDays }) => {
       </div>
 
       <div className="mt-6 h-full">
-        <div className="grid grid-cols-4 content-center items-center px-4">
-          <div className="col-span-2 md:col-span-1">Time</div>
-          <div className="col-span-2 md:col-span-1">Activity</div>
-          <div className="col-span-2 md:col-span-1">Channel</div>
-          <div className="col-span-2 md:col-span-1">Location</div>
+        <div className="grid w-full grid-cols-4 items-center justify-center px-4 py-3 text-lg font-semibold">
+          <div className="col-span-2 text-center md:col-span-1">Time</div>
+          <div className="col-span-2 text-center md:col-span-1">Activity</div>
+          <div className="col-span-2 text-center md:col-span-1">Channel</div>
+          <div className="col-span-2 text-center md:col-span-1">Location</div>
         </div>
         {events
           .filter(({ day }) => day === selectedDay)
           .map(({ start, summary, description, location }, index) => (
             <div
               key={index}
-              className="grid w-full grid-cols-4 items-center justify-center px-4 py-3 text-lg font-semibold"
+              className="grid w-[1000px] grid-cols-4 items-center justify-center px-4 py-3 text-center text-lg font-semibold"
             >
               <p>
                 {new Date(start).toLocaleTimeString("en-US", {
