@@ -12,13 +12,13 @@ const Events = ({ events, totalDays }) => {
   );
 
   return (
-    <div className="relative flex flex-col items-center justify-center">
-      <div className="absolute -top-20 h-full py-4 sm:w-[450px] sm:text-xs md:w-[600px] lg:w-[800px] lg:px-8 lg:text-lg">
-        <div className="mx-auto grid grid-cols-6 items-center justify-between overflow-hidden rounded sm:text-xs lg:ml-3 lg:text-base">
+    <div className="flex-column relative flex items-center justify-center">
+      <div className="absolute -top-20 py-4 sm:w-[100px] sm:gap-0 sm:text-xs md:w-[600px] lg:w-[800px] lg:gap-2 lg:px-8">
+        <div className="flex items-center justify-center rounded sm:gap-0 sm:text-xs lg:ml-3 lg:text-base">
           {totalDays.map((day) => (
             <button
               key={day}
-              className={`flex rounded p-2 text-white focus:outline-none sm:justify-between sm:text-xs md:text-base lg:justify-center lg:text-lg ${
+              className={`flex rounded px-[2px] text-white focus:outline-none sm:text-xs md:text-base lg:justify-center lg:px-4 lg:text-lg ${
                 selectedDay === day ? "border-2" : "bg-transparent"
               }`}
               onClick={() => setSelectedDay(day)}
