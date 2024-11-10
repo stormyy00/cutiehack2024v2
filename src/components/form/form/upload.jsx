@@ -55,13 +55,11 @@ const Upload = ({ field, user, setUser, text, maxSize, types, required }) => {
         {!file && (
           <label
             htmlFor="dropzone-file"
-            className="flex h-fit w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-gray-300 bg-gray-50 hover:bg-gray-100"
+            className="flex h-fit w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 bg-cutie-purple-100 hover:bg-cutie-purple-200"
           >
             <div className="flex flex-col items-center justify-center py-4">
-              <LucideUpload className="mb-2 text-3xl text-cutie-purple-200" />
-              <p className="text-sm font-semibold text-gray-500">
-                Upload from my computer
-              </p>
+              <LucideUpload className="mb-2 text-3xl text-white" />
+              <p className="text-sm text-white">Upload from my computer</p>
             </div>
             <div className="w-full" data-cy="upload-input">
               <input
@@ -91,7 +89,7 @@ const Upload = ({ field, user, setUser, text, maxSize, types, required }) => {
               {file.type.split("/")[0] === "image" && (
                 <Eye
                   onClick={() => setShowModal(true)}
-                  className="text-whte mr-2 hover:cursor-pointer hover:text-cutie-violet"
+                  className="text-whte mr-2 hover:cursor-pointer hover:text-gray-800"
                 />
               )}
 
