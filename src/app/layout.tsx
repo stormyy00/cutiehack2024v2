@@ -30,7 +30,7 @@ const RootLayout = async ({ children }: Props) => {
   return (
     <html lang="en" className="h-full">
       <body
-        className={`${poppins.variable} ${righteous.variable}flex sticky max-h-full flex-col overflow-x-hidden overflow-y-scroll lg:flex-row`}
+        className={`${poppins.variable} ${righteous.variable}flex flex-col overflow-x-hidden`}
       >
         <div className="flex h-full w-full">
           <Providers session={session}>
