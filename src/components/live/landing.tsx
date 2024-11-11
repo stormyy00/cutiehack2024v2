@@ -6,6 +6,7 @@ import star1 from "@/public/assets/star.svg";
 import star2 from "@/public/assets/staryellow.svg";
 import star3 from "@/public/assets/starwhite.svg";
 import Link from "next/link";
+import Arrow from "@/public/assets/arrow.svg";
 
 const Landing = () => {
   return (
@@ -25,19 +26,22 @@ const Landing = () => {
           <div className="block font-righteous text-lg font-medium md:hidden">
             Apply to
           </div>
-          <div className="z-20 mb-4 mt-1 flex w-fit items-center justify-center gap-3 whitespace-normal font-righteous text-base font-medium md:whitespace-nowrap md:text-3xl">
+          <div className="z-20 mb-4 mt-1 flex w-fit items-center justify-center whitespace-normal font-righteous text-base sm:gap-0 sm:text-sm md:gap-3 md:whitespace-nowrap md:text-3xl lg:font-medium">
             <p className="hidden md:block">Apply to</p>
             <Apply text={"PARTICIPATE"} link={"/form/participant"} />
-            or
+            <p className="ml-4 mr-2">or</p>
             <Apply text={"MENTOR"} link={"/form/mentor"} />
-            or
+            <p className="sm:-ml-10 lg:-ml-8">or</p>
             <Apply text={"VOLUNTEER"} link={"/form/volunteer"} />
           </div>
           <Link
-            href={"/form/sponsor"}
+            href={"/form/judge"}
             className="z-10 rounded-3xl bg-[#9E0C7A] px-9 py-2 font-righteous text-sm font-medium hover:opacity-75 md:text-2xl"
           >
-            Sponsor CutieHack!
+            <div className="flex">
+              Judge CutieHack
+              <Image src={Arrow} alt="Arrow" className="ml-2" />
+            </div>
           </Link>
         </div>
       </div>
