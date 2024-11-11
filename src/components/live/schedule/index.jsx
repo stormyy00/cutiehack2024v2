@@ -27,7 +27,7 @@ const Schedule = async () => {
         id="schedule"
         className="flex flex-col items-center justify-center gap-8 bg-cutie-blue-300 pb-20 font-righteous text-sm lg:text-base"
       >
-        <div className="text-md rounded-3xl border-8 border-[#9E0C7A] bg-[#61114D] font-righteous text-white">
+        <div className="text-md divide-y-2 rounded-3xl border-8 border-[#9E0C7A] bg-[#61114D] font-righteous text-white">
           <Events events={items} totalDays={totalDays} />
         </div>
       </div>
@@ -36,13 +36,3 @@ const Schedule = async () => {
 };
 
 export default Schedule;
-
-// return (
-// <div
-// id="schedule"
-// className="-mt-1 flex h-screen flex-col items-center justify-center gap-10 bg-cutie-blue-300 py-10 font-righteous"
-// >
-// <Title text={"Schedule"} subtext={"Coming soon!"} />
-// </div>
-// );
-//

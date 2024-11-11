@@ -18,7 +18,7 @@ const Events = ({ events, totalDays }) => {
           {totalDays.map((day) => (
             <button
               key={day}
-              className={`flex rounded px-[2px] text-white focus:outline-none sm:text-xs md:text-base lg:justify-center lg:px-4 lg:text-lg ${
+              className={`flex rounded px-[2px] text-white hover:border-2 focus:outline-none sm:text-xs md:text-base lg:justify-center lg:px-4 lg:text-lg ${
                 selectedDay === day ? "border-2" : "bg-transparent"
               }`}
               onClick={() => setSelectedDay(day)}
@@ -29,19 +29,19 @@ const Events = ({ events, totalDays }) => {
         </div>
       </div>
 
-      <div className="mt-6 h-full">
-        <div className="lg:text-md grid grid-cols-4 items-center justify-center text-center font-semibold sm:w-[100px] sm:text-sm md:w-[600px] md:text-lg lg:w-[1000px]">
-          <div className="col-span-2 md:col-span-1">Time</div>
-          <div className="col-span-2 md:col-span-1">Activity</div>
-          <div className="hidden md:block">Channel</div>
-          <div className="hidden md:block">Location</div>
+      <div className="mt-6 flex h-full flex-col items-center justify-center">
+        <div className="lg:text-md grid grid-cols-4 items-center justify-center text-center font-semibold sm:w-[100px] sm:text-sm md:w-[600px] md:text-lg lg:w-11/12">
+          <div className="w-full">Time</div>
+          <div className="w-full">Activity</div>
+          <div className="w-full">Channel</div>
+          <div className="w-full">Location</div>
         </div>
         {events
           .filter(({ day }) => day === selectedDay)
           .map(({ start, summary, description, location }, index) => (
             <div
               key={index}
-              className="md:text-md grid grid-cols-4 items-center justify-center px-4 py-3 text-center font-semibold sm:w-[100px] sm:text-sm md:w-[600px] lg:w-[1000px] lg:text-lg"
+              className="grid grid-cols-4 items-center justify-center border-t px-4 py-3 text-center font-semibold sm:w-[100px] sm:text-sm md:w-[600px] lg:w-11/12 lg:text-lg"
             >
               <p>
                 {new Date(start).toLocaleTimeString("en-US", {
