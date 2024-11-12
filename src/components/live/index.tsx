@@ -25,8 +25,8 @@ const Live = () => {
       <Sponsors />
 
       <Team />
-      <Committees />
-      <Judges />
+      {/* <Committees /> */}
+      {/* <Judges /> */}
       <FAQ />
       <Footer />
       <Stars length={700} />
