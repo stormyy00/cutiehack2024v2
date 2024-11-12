@@ -10,6 +10,9 @@ import FAQ from "./faq";
 import Footer from "./footer";
 import Navigation from "./navigation";
 import Stars from "./stars";
+import Committees from "./committees";
+import Judges from "./judges";
+import Team from "./team/team";
 
 const Live = () => {
   return (
@@ -21,9 +24,9 @@ const Live = () => {
       <Schedule />
       <Sponsors />
 
-      {/* <Team />
-      <Committees />
-      <Judges /> */}
+      <Team />
+      {/* <Committees /> */}
+      {/* <Judges /> */}
       <FAQ />
       <Footer />
       <Stars length={700} />
