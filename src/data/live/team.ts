@@ -121,7 +121,7 @@ export const TEAMS = [
     name: "Jonathan Trujillo",
     link: "/",
     image: JonathanT,
-    team: "Senior Software Engineering",
+    team: "Software Engineering",
   },
   {
     name: "Taaha Sayed",
