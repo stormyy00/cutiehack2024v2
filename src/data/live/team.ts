@@ -1,22 +1,22 @@
-import JonDarius from "@/public/board/JonDarius.jpg";
-import Minnoli from "@/public/board/Minnoli.jpg";
+import JonDarius from "@/public/board/JonDarius.webp";
+import Minnoli from "@/public/board/Minnoli.webp";
 
-import Allison from "@/public/board/Allison.jpg";
-import Amir from "@/public/board/Amir.jpg";
-import Ananya from "@/public/board/Ananya.jpg";
-import Chandrahass from "@/public/board/Chandrahaas.jpg";
-import Charlette from "@/public/board/Charlette.jpg";
-import Cris from "@/public/board/Cris.jpg";
-import Huong from "@/public/board/Huong.jpg";
-import JonathanT from "@/public/board/Jonathan.jpg";
-import Karan from "@/public/board/Karan.jpg";
-import Mahi from "@/public/board/Mahiyat.jpg";
-import Rhea from "@/public/board/Rhea.jpg";
-import Vishra from "@/public/board/Vishra.jpg";
-import BSun from "@/public/board/bsun.jpg";
-import Dylan from "@/public/board/dylan.jpg";
+import Allison from "@/public/board/Allison.webp";
+import Amir from "@/public/board/Amir.webp";
+import Ananya from "@/public/board/Ananya.webp";
+import Chandrahass from "@/public/board/Chandrahaas.webp";
+import Charlette from "@/public/board/Charlette.webp";
+import Cris from "@/public/board/Cris.webp";
+import Huong from "@/public/board/Huong.webp";
+import JonathanT from "@/public/board/Jonathan.webp";
+import Karan from "@/public/board/Karan.webp";
+import Mahi from "@/public/board/Mahiyat.webp";
+import Rhea from "@/public/board/Rhea.webp";
+import Vishra from "@/public/board/Vishra.webp";
+import BSun from "@/public/board/bsun.webp";
+import Dylan from "@/public/board/dylan.webp";
 import Hannah from "@/public/board/hannah.jpg";
-import Taaha from "@/public/board/taaha.jpg";
+import Taaha from "@/public/board/taaha.webp";
 
 export const COMMITTEES = {
   Operations: ["First Last", "First Last", "First Last", "First Last"],
