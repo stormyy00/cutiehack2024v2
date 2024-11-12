@@ -29,15 +29,7 @@ const Schedule = () => {
     getEvents();
   }, []);
 
-  const totalDays = [
-    "Monday",
-    "Tuesday",
-    "Wednesday",
-    "Thursday",
-    "Friday",
-    "Saturday",
-    "Sunday",
-  ];
+  const totalDays = ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
   return (
     <div className="flex flex-col items-center justify-center gap-8 pb-24 text-sm text-white lg:text-base">
