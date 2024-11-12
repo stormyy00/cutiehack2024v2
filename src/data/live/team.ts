@@ -127,13 +127,13 @@ export const TEAMS = [
     name: "Taaha Sayed",
     link: "/",
     image: Taaha,
-    team: "Junior Software Engineering",
+    team: "Software Engineering",
   },
   {
     name: "Brandon Sun",
     link: "/",
     image: BSun,
-    team: "Junior Software Engineering",
+    team: "Software Engineering",
   },
   {
     name: "Amir Shanti",
@@ -141,10 +141,4 @@ export const TEAMS = [
     image: Amir,
     team: "Software Engineering",
   },
-  // {
-  //   name: "Holland Pleskac",
-  //   link: "/",
-  //   image: "",
-  //   team: "Software Engineering",
-  // },
 ];
