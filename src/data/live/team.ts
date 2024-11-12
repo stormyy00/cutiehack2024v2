@@ -16,7 +16,7 @@ import Vishra from "@/public/board/Vishra.jpg";
 import BSun from "@/public/board/bsun.jpg";
 import Dylan from "@/public/board/dylan.jpg";
 import Hannah from "@/public/board/hannah.jpg";
-import Taaha from "@/public/board/taaha(2).jpg";
+import Taaha from "@/public/board/taaha.jpg";
 
 export const COMMITTEES = {
   Operations: ["First Last", "First Last", "First Last", "First Last"],
