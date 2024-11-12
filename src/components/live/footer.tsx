@@ -45,16 +45,18 @@ const Footer = () => {
           <Instagram className="absolute right-[16%] top-[45%] z-30 h-11 w-11 rotate-[30deg] md:left-[20%] md:top-[61%] md:h-14 md:w-14 md:-rotate-[50deg]" />
         </Link>
       </div>
-      <Image
-        src={Flag}
-        alt="Flag"
-        className="absolute right-[26%] top-[22.5%] z-0 hidden rotate-[23deg] md:block"
-      />
-      <Image
-        src={LOGO}
-        alt="CutieHack 2024"
-        className="absolute right-[25%] top-[26%] z-0 hidden w-[7%] rotate-[23deg] md:block"
-      />
+      <div className="md:hidden lg:block">
+        <Image
+          src={Flag}
+          alt="Flag"
+          className="absolute right-[26%] top-[22.5%] z-0 hidden rotate-[23deg] md:block"
+        />
+        <Image
+          src={LOGO}
+          alt="CutieHack 2024"
+          className="absolute right-[25%] top-[22.5%] z-0 hidden w-[7%] rotate-[23deg] md:block"
+        />
+      </div>
       <div className="absolute bottom-0 z-20 flex w-full justify-center text-lg font-semibold text-black">
         Made with 🧡 by the Cutiehack team
       </div>
