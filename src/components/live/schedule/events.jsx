@@ -21,7 +21,7 @@ const Events = ({ events, totalDays }) => {
               className={`flex rounded px-[2px] text-white focus:outline-none sm:text-xs md:text-base lg:justify-center lg:px-4 lg:text-lg ${
                 selectedDay === day
                   ? "border-2"
-                  : "sticky bg-transparent hover:border-2"
+                  : "sticky border-2 border-transparent duration-200 hover:border-white"
               }`}
               onClick={() => setSelectedDay(day)}
             >

@@ -25,12 +25,12 @@ const Landing = () => {
           <div className="block font-righteous text-lg font-medium md:hidden">
             Apply to
           </div>
-          <div className="z-20 mb-4 mt-1 flex w-fit items-center justify-center gap-3 whitespace-normal font-righteous text-base font-medium md:whitespace-nowrap md:text-3xl">
+          <div className="z-20 mb-2 mt-1 flex w-fit flex-col items-center justify-center gap-0 whitespace-normal font-righteous text-base font-medium md:mb-4 md:flex-row md:gap-3 md:whitespace-nowrap md:text-3xl">
             <p className="hidden md:block">Apply to</p>
             <Apply text={"PARTICIPATE"} link={"/form/participant"} />
-            or
+            <p className="hidden md:block">or</p>
             <Apply text={"MENTOR"} link={"/form/mentor"} />
-            or
+            <p className="hidden md:block">or</p>
             <Apply text={"VOLUNTEER"} link={"/form/volunteer"} />
           </div>
           <Link
