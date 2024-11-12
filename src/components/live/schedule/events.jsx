@@ -3,12 +3,12 @@ import { useState } from "react";
 
 const Events = ({ events, totalDays }) => {
   const [selectedDay, setSelectedDay] = useState(
-    new Date() > new Date(events[0].start)
+    new Date() > new Date(events.start)
       ? new Date().toLocaleString("en-US", {
           timeZone: "America/Los_Angeles",
           weekday: "long",
         })
-      : "",
+      : "Tuesday",
   );
 
   return (
@@ -54,7 +54,7 @@ const Events = ({ events, totalDays }) => {
                 </p>
                 <p className="flex w-full justify-center">{summary}</p>
                 <p className="flex justify-center">
-                  {description.split("\n")[0].substr(1)}
+                  {description.replace("#", "").split(" ")[0]}
                 </p>
                 <p className="flex justify-center">{location}</p>
               </div>
