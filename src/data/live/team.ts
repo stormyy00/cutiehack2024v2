@@ -1,6 +1,22 @@
-import Taaha from "@/public/board/taaha2024.webp";
-import JonathanT from "@/public/board/jonathan2024.webp";
-import Allison from "@/public/board/allison2024.webp";
+import JonDarius from "@/public/board/JonDarius.webp";
+import Minnoli from "@/public/board/Minnoli.webp";
+
+import Allison from "@/public/board/Allison.webp";
+import Amir from "@/public/board/Amir.webp";
+import Ananya from "@/public/board/Ananya.webp";
+import Chandrahass from "@/public/board/Chandrahaas.webp";
+import Charlette from "@/public/board/Charlette.webp";
+import Cris from "@/public/board/Cris.webp";
+import Huong from "@/public/board/Huong.webp";
+import JonathanT from "@/public/board/Jonathan.webp";
+import Karan from "@/public/board/Karan.webp";
+import Mahi from "@/public/board/Mahiyat.webp";
+import Rhea from "@/public/board/Rhea.webp";
+import Vishra from "@/public/board/Vishra.webp";
+import BSun from "@/public/board/bsun.webp";
+import Dylan from "@/public/board/dylan.webp";
+import Hannah from "@/public/board/hannah.webp";
+import Taaha from "@/public/board/taaha.webp";
 
 export const COMMITTEES = {
   Operations: ["First Last", "First Last", "First Last", "First Last"],
@@ -14,12 +30,12 @@ export const DIRECTORS = [
   {
     name: "Minnoli Nori",
     link: "/",
-    image: "",
+    image: Minnoli,
   },
   {
     name: "Jon Darius",
     link: "/",
-    image: "",
+    image: JonDarius,
   },
 ];
 
@@ -34,64 +50,70 @@ export const TEAMS = [
   {
     name: "Huong Le",
     link: "/",
-    image: "",
+    image: Huong,
     team: "Operations",
   },
   {
     name: "Mahiyat Bhuiyan",
     link: "/",
-    image: "",
+    image: Mahi,
     team: "Operations",
   },
   {
     name: "Karan Dhawan",
     link: "/",
-    image: "",
+    image: Karan,
     team: "Operations",
   },
   // MARKETING
   {
     name: "Chandrahass Mariserla",
     link: "/",
-    image: "",
+    image: Chandrahass,
     team: "Marketing",
   },
   {
     name: "Hannah Hwang",
     link: "/",
-    image: "",
+    image: Hannah,
     team: "Marketing",
   },
   // SPONSORSHIP
   {
     name: "Rhea Verma",
     link: "/",
-    image: "",
+    image: Rhea,
     team: "Sponsorship",
   },
   {
-    name: "Cris LastName",
+    name: "Cristian Roberts",
     link: "/",
-    image: "",
+    image: Cris,
+    team: "Sponsorship",
+  },
+  {
+    name: "Charlette O'Connor",
+    link: "/",
+    image: Charlette,
     team: "Sponsorship",
   },
   // UI / UX
   {
     name: "Ananya Dharanikota",
     link: "/",
-    image: "",
+    image: Ananya,
     team: "UI/UX",
   },
   {
     name: "Vishra Thakkar",
     link: "/",
-    image: "",
+    image: Vishra,
     team: "UI/UX",
   },
   {
     name: "Dylan Vuong",
     link: "/",
-    image: "",
+    image: Dylan,
     team: "UI/UX",
   },
   // SOFTWARE
@@ -99,7 +121,7 @@ export const TEAMS = [
     name: "Jonathan Trujillo",
     link: "/",
     image: JonathanT,
-    team: "Senior Software Engineering",
+    team: "Software Engineering",
   },
   {
     name: "Taaha Sayed",
@@ -110,19 +132,13 @@ export const TEAMS = [
   {
     name: "Brandon Sun",
     link: "/",
-    image: "",
+    image: BSun,
     team: "Software Engineering",
   },
   {
     name: "Amir Shanti",
     link: "/",
-    image: "",
-    team: "Software Engineering",
-  },
-  {
-    name: "Holland Pleskac",
-    link: "/",
-    image: "",
+    image: Amir,
     team: "Software Engineering",
   },
 ];
