@@ -16,7 +16,11 @@ const Schedule = async () => {
     });
   });
 
-  const totalDays = items ? [...new Set(items.map(({ day }) => day))] : [];
+  const totalDays = items
+    ? [...new Set(items.map(({ day }) => day))].filter(
+        (day) => day !== "Monday" && day !== "Sunday",
+      )
+    : [];
 
   return (
     <div className="flex flex-col items-center justify-center gap-8 pb-24 text-sm text-white lg:text-base">
@@ -25,7 +29,7 @@ const Schedule = async () => {
       </div>
       <div
         id="schedule"
-        className="flex flex-col items-center justify-center gap-8 bg-cutie-blue-300 pb-20 font-righteous text-sm lg:text-base"
+        className="flex w-11/12 items-center justify-center gap-8 bg-cutie-blue-300 pb-20 font-righteous text-sm md:w-9/12 lg:text-base"
       >
         <div className="text-md divide-y-2 rounded-3xl border-8 border-[#9E0C7A] bg-[#61114D] font-righteous text-white">
           <Events events={items} totalDays={totalDays} />
