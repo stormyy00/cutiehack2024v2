@@ -30,15 +30,23 @@ const Events = ({ events, totalDays }) => {
           ))}
         </div>
       </div>
-      {selectedDay != "Monday" ? (
-        <div className="mt-6 flex h-full flex-col items-center justify-center">
-          <div className="lg:text-md flex w-full justify-between text-center font-semibold sm:text-sm md:w-11/12 md:text-lg lg:w-11/12">
-            <div className="w-full">Time</div>
-            <div className="w-full">Event</div>
-            <div className="w-full">Type</div>
-            <div className="w-full">Location</div>
+      <div className="mt-6 flex h-full w-full flex-col items-center justify-center">
+        <div className="lg:text-md flex w-full justify-between text-center font-semibold sm:text-sm md:w-11/12 md:text-lg lg:w-11/12">
+          <div className="w-full">Time</div>
+          <div className="w-full">Event</div>
+          <div className="w-full">Type</div>
+          <div className="w-full">Location</div>
+        </div>
+
+        {events.filter(({ day }) => day === selectedDay).length == 0 ? (
+          <div className="w-full p-4 text-center text-xl font-semibold">
+            No Events today
+            <p className="text-cutie-gray/80">
+              Please select another day to view an event
+            </p>
           </div>
-          {events
+        ) : (
+          events
             .filter(({ day }) => day === selectedDay)
             .map(({ start, summary, description, location }, index) => (
               <div
@@ -53,21 +61,14 @@ const Events = ({ events, totalDays }) => {
                   })}
                 </p>
                 <p className="flex w-full justify-center">{summary}</p>
-                <p className="flex justify-center">
+                <p className="flex justify-center capitalize">
                   {description.replace("#", "").split(" ")[0]}
                 </p>
                 <p className="flex justify-center">{location}</p>
               </div>
-            ))}
-        </div>
-      ) : (
-        <div className="w-full p-4 text-center text-xl font-semibold">
-          No Events today
-          <p className="text-cutie-gray/80">
-            Please seleect another day to view an event
-          </p>
-        </div>
-      )}
+            ))
+        )}
+      </div>
     </div>
   );
 };
