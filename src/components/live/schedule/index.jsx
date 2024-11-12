@@ -32,7 +32,10 @@ const Schedule = () => {
   const totalDays = ["Tuesday", "Wednesday", "Thursday", "Friday", "Saturday"];
 
   return (
-    <div className="flex flex-col items-center justify-center gap-8 pb-24 text-sm text-white lg:text-base">
+    <div
+      id="schedule"
+      className="flex flex-col items-center justify-center gap-8 pb-24 text-sm text-white lg:text-base"
+    >
       <div className="mb-40 flex justify-center">
         <Title text={"Schedule"} />
       </div>
