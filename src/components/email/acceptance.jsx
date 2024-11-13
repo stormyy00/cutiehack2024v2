@@ -35,8 +35,8 @@ const Acceptance = ({ name, position, preview }) => {
       </Text>
       <Text className="text-xs leading-[24px] text-[#DADADA]">
         This link will take you to a sign-in page and prompt you to log in using
-        your Wolfram ID. If you don{"'"}t already have a Wolfram ID, you{"'"}ll be
-        prompted to create one using an active email address. Once logged in,
+        your Wolfram ID. If you don{"'"}t already have a Wolfram ID, you{"'"}ll
+        be prompted to create one using an active email address. Once logged in,
         you will see in the Downloads section which platforms of the software
         you have access to, with their accompanying activation keys. Please
         download the desktop version to your machine, boot up the application
