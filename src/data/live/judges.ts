@@ -1,27 +1,47 @@
 export const JUDGES = [
   {
-    name: "Mengxuan Wu",
+    name: "Alicia Thai ",
     image: "",
     title: "Software Engineer @ Google",
   },
   {
-    name: "Kavin Phabinani",
+    name: "Cameron Tsai",
     image: "",
-    title: "CSE Professor",
+    title: "Recent College Graduate",
   },
   {
-    name: "Howard Zhu",
+    name: "Jerry Li",
     image: "",
-    title: "Network Engineer @ BlackRock",
+    title: "Vice President of ACM",
   },
   {
-    name: "Menthy Wu",
+    name: "Joshua Candelaria",
+    image: "",
+    title: "Graduate Student",
+  },
+  {
+    name: "Karan Bhogal",
+    image: "",
+    title: "SWE @ Cisco",
+  },
+  {
+    name: "Paulian Le",
+    image: "",
+    title: "Previous Operations Lead",
+  },
+  {
+    name: "Sathya Srinivasan",
     image: "",
     title: "Software Engineer @ Google",
   },
   {
-    name: "Menthy Wu",
+    name: "Samarth Srinivasa",
     image: "",
-    title: "Software Engineer @ Google",
+    title: "Hackathon Lead",
+  },
+  {
+    name: "Yogitha Shastri",
+    image: "",
+    title: "Former BearHack Director, MSMDEng",
   },
 ];
