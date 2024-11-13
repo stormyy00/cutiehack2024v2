@@ -51,7 +51,7 @@ const Events = ({ events, totalDays }) => {
             .map(({ start, summary, description, location }, index) => (
               <div
                 key={index}
-                className="grid grid-cols-4 items-center justify-center border-t px-4 py-3 text-center font-semibold sm:w-[100px] sm:text-sm md:w-[600px] lg:w-11/12 lg:text-lg"
+                className="grid grid-cols-4 items-center justify-center border-t px-0 py-3 text-center font-semibold sm:w-[100px] sm:text-sm md:w-[600px] lg:w-11/12 lg:text-lg"
               >
                 <p>
                   {new Date(start).toLocaleTimeString("en-US", {
