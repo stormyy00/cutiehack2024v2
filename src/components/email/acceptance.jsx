@@ -22,7 +22,7 @@ const Acceptance = ({ name, position, preview }) => {
         </Button>
       </Section>
       <Text className="text-white">
-        We'd also like to thank Wolgram for sponoring us by giving us
+        We{"'"}d also like to thank Wolgram for sponoring us by giving us
         complimentary access to our development platform and the WolframAlpha
         API for six months, just click
         <Link
@@ -35,7 +35,7 @@ const Acceptance = ({ name, position, preview }) => {
       </Text>
       <Text className="text-xs leading-[24px] text-[#DADADA]">
         This link will take you to a sign-in page and prompt you to log in using
-        your Wolfram ID. If you don't already have a Wolfram ID, you'll be
+        your Wolfram ID. If you don{"'"}t already have a Wolfram ID, you{"'"}ll be
         prompted to create one using an active email address. Once logged in,
         you will see in the Downloads section which platforms of the software
         you have access to, with their accompanying activation keys. Please
