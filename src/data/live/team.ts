@@ -2,6 +2,7 @@ import JonDarius from "@/public/board/JonDarius.webp";
 import Minnoli from "@/public/board/Minnoli.webp";
 
 import Allison from "@/public/board/Allison.webp";
+import Amir from "@/public/board/Amir.webp";
 import Ananya from "@/public/board/Ananya.webp";
 import Chandrahass from "@/public/board/Chandrahaas.webp";
 import Charlette from "@/public/board/Charlette.webp";
@@ -10,7 +11,7 @@ import Huong from "@/public/board/Huong.webp";
 import JonathanT from "@/public/board/Jonathan.webp";
 import Karan from "@/public/board/Karan.webp";
 import Mahi from "@/public/board/Mahiyat.webp";
-import { default as Amir, default as Rhea } from "@/public/board/Rhea.webp";
+import Rhea from "@/public/board/Rhea.webp";
 import Vishra from "@/public/board/Vishra.webp";
 import BSun from "@/public/board/bsun.webp";
 import Dylan from "@/public/board/dylan.webp";
