@@ -12,7 +12,7 @@ const SVGS = () => {
       <Image
         src={Rocket}
         alt="RocketShip"
-        className="absolute -top-[2%] left-[1%] z-10 w-[30%]"
+        className="absolute left-[3%] top-[1%] z-10 w-[20%]"
       />
       <Image
         src={Star}
@@ -27,7 +27,7 @@ const SVGS = () => {
       <Image
         src={Galaxy}
         alt="Galaxy"
-        className="absolute left-[10%] top-[36%] z-10 hidden w-fit animate-spin-10s md:block"
+        className="absolute left-[10%] top-[36%] z-10 hidden w-[270px] animate-spin-10s md:block"
       />
       <Image
         src={Satellite}
