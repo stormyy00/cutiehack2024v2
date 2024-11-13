@@ -83,6 +83,7 @@ export const MAJORS = [
   "Psychology",
   "Public Policy",
   "Religious Studies",
+  "Robotics",
   "Sociology",
   "Spanish",
   "Statistics",
