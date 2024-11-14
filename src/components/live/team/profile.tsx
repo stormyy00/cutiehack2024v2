@@ -14,7 +14,8 @@ const Profile = ({
     <div className="flex w-fit flex-col items-center justify-center text-center font-righteous text-white">
       <div className="relative mb-6 flex w-10/12 items-center justify-center">
         <Image unoptimized src={Border} alt="window" />
-        <Image unoptimized
+        <Image
+          unoptimized
           src={image}
           alt={`${name}'s Image`}
           className="absolute inset-0 left-[17%] top-[16%] h-[68%] w-[68%] rounded-full object-cover"
