@@ -78,7 +78,12 @@ const updateRoleCounts = async (role) => {
   ];
   const schoolOptions = [
     "University of California, Riverside",
-    "New York University",
+    "Riverside City College",
+    "California State University, San Bernardino",
+    "California State University, Fullerton",
+    "University of California, San Diego",
+    "University of California, Irvine",
+    "Pasadena City College",
   ];
 
   const [schoolMinusOneCount, schoolZeroCount, schoolOneCount] =
