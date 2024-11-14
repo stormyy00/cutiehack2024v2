@@ -22,7 +22,7 @@ const Live = () => {
       <Sponsors />
 
       <Team />
-    {/* <Committees /> */}
+      {/* <Committees /> */}
       {/* <Judges /> */}
       <FAQ />
       <Footer />
