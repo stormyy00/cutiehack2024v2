@@ -20,7 +20,6 @@ const Live = () => {
       <Tracks />
       <Schedule />
       <Sponsors />
-
       <Team />
       {/* <Committees /> */}
       {/* <Judges /> */}

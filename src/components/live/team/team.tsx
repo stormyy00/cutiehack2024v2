@@ -22,7 +22,7 @@ const Team = () => {
           ))}
         </div>
       </div>
-      <div className="mt-10 flex flex-col items-center justify-center gap-10 text-white">
+      <div className="mt-10 flex flex-col items-center justify-center gap-5 text-white">
         <Header title={"Leads"} />
         <div className="mt-3 grid w-11/12 grid-cols-2 gap-x-2 gap-y-10 text-center sm:gap-x-4 md:grid-cols-3 md:gap-x-6 lg:grid-cols-4 lg:gap-x-8 xl:gap-x-12 2xl:gap-x-16">
           {TEAMS.map((member, index) => (
