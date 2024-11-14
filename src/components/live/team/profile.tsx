@@ -20,4 +20,6 @@ const Profile = memo(({ name, team, image }: { name: string; team: string; image
   );
 });
 
+Profile.displayName = "Profile";
+
 export default Profile;
