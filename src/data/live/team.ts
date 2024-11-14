@@ -20,9 +20,14 @@ import Taaha from "@/public/board/taaha.webp";
 
 export const COMMITTEES = {
   Operations: ["First Last", "First Last", "First Last", "First Last"],
-  Sponsorship: ["First Last", "First Last", "First Last", "First Last"],
-  Marketing: ["First Last", "First Last", "First Last", "First Last"],
-  Software: ["Sean Quiambao", "Sachin Chopra", "First Last", "First Last"],
+  Sponsorship: [
+    "Karina Flores Angel",
+    "First Last",
+    "First Last",
+    "First Last",
+  ],
+  Marketing: ["Angel Avalos", "First Last", "First Last", "First Last"],
+  Software: ["Sean Quiambao", "Sachin Chopra"],
   "UI / UX": ["First Last", "First Last", "First Last", "First Last"],
 };
 

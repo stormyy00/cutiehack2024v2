@@ -122,8 +122,8 @@ export const DIETS: Record<label, diets> = {
 };
 
 export const SCHOOLS = {
-  "New York University": {
-    label: "NYU",
+  "Riverside City College": {
+    label: "RCC",
     className: "fill-hackathon-tags-pink-text",
     fill: "bg-hackathon-tags-pink-text",
   },
@@ -131,5 +131,30 @@ export const SCHOOLS = {
     label: "UCR",
     className: "fill-hackathon-tags-teal-text",
     fill: "bg-hackathon-tags-teal-text",
+  },
+  "California State University, San Bernardino": {
+    label: "CSUSB",
+    className: "fill-hackathon-yellow-100",
+    fill: "bg-hackathon-yellow-100",
+  },
+  "California State University, Fullerton": {
+    label: "CSUF",
+    className: "fill-hackathon-green-200",
+    fill: "bg-hackathon-green-200",
+  },
+  "University of California, San Diego": {
+    label: "UCSD",
+    className: "fill-hackathon-tags-red-text",
+    fill: "bg-hackathon-tags-red-text",
+  },
+  "University of California, Irvine": {
+    label: "UCI",
+    className: "fill-hackathon-tags-purple-text",
+    fill: "bg-hackathon-tags-purple-text",
+  },
+  "Pasadena City College": {
+    label: "PCC",
+    className: "fill-hackathon-tags-lightgreen-text",
+    fill: "bg-hackathon-tags-lightgreen-bg",
   },
 };
