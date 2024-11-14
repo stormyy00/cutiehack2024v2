@@ -22,9 +22,9 @@ const Acceptance = ({ name, position, preview }) => {
         </Button>
       </Section>
       <Text className="text-white">
-        We{"'"}d also like to thank Wolgram for sponoring us by giving us
-        complimentary access to our development platform and the WolframAlpha
-        API for six months, just click
+        We{"'"}d also like to thank <strong>Wolgram</strong> for sponoring us by
+        giving complimentary access to their development platform and the
+        WolframAlpha API for six months, just click
         <Link
           href={"https://account.wolfram.com/redeem/qzRiversideCutieHack1124"}
           className="text-[#FF00C0]"

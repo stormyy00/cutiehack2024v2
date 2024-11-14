@@ -13,14 +13,13 @@ import Team from "./team/team";
 
 const Live = () => {
   return (
-    <div className="relative bg-cutie-blue-300">
+    <div className="relative overflow-hidden bg-cutie-blue-300">
       <Navigation />
       <Landing />
       <About />
       <Tracks />
       <Schedule />
       <Sponsors />
-
       <Team />
       {/* <Committees /> */}
       {/* <Judges /> */}
