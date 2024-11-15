@@ -172,11 +172,11 @@ export const TABS: Tabs = {
           link: "/user/resources",
           icon: <Newspaper className={iconStyle} />,
         },
-        {
-          name: "find a team",
-          link: "/user/find",
-          icon: <Search className={iconStyle} />,
-        },
+        // {
+        //   name: "find a team",
+        //   link: "/user/find",
+        //   icon: <Search className={iconStyle} />,
+        // },
       ],
     },
   },

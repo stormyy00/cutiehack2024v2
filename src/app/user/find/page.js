@@ -9,7 +9,7 @@ const Page = () => {
         participants: [1, 0, -1],
       }}
     >
-      <Find />
+      {/* <Find /> */}
     </ProtectedPage>
   );
 };
