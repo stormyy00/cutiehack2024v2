@@ -11,7 +11,7 @@ import {
   Lock,
   Calendar,
   AlertCircle,
-  Search,
+  // Search,
   Settings,
   QrCode,
   HandHeart,
