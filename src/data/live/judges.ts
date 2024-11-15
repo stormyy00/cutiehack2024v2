@@ -11,7 +11,7 @@ import Rachit from "@/public/judges/Rachit_Prajapati.webp";
 import Raidah from "@/public/judges/Raidah_Fairooz.webp";
 import Samarth from "@/public/judges/Samarth_Srinivasa.webp";
 import Sathya from "@/public/judges/Sathya_Srinivasan.webp";
-import Vincent from "@/public/judges/Vincent_Raimondi.png";
+import Vincent from "@/public/judges/Vincent_Raimondi.webp";
 import Yogitha from "@/public/judges/Yogitha_Shastri.webp";
 
 export const JUDGES = [
