@@ -3,7 +3,6 @@ import About from "./about";
 import Schedule from "./schedule";
 import Tracks from "./tracks";
 import Sponsors from "./sponsors";
-// import Team from "./team/team";
 // import Committees from "./committees";
 import Judges from "./judges";
 import FAQ from "./faq";
@@ -14,14 +13,13 @@ import Team from "./team/team";
 
 const Live = () => {
   return (
-    <div className="relative bg-cutie-blue-300">
+    <div className="relative overflow-hidden bg-cutie-blue-300">
       <Navigation />
       <Landing />
       <About />
       <Tracks />
       <Schedule />
       <Sponsors />
-
       <Team />
       {/* <Committees /> */}
       <Judges />

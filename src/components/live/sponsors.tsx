@@ -1,20 +1,17 @@
 import Title from "./title";
 import orangeGalaxy from "@/public/assets/orangeGalaxy.svg";
 import coolerMaster from "@/public/assets/coolerMaster.svg";
-import cocalc from "@/public/assets/cocalc.svg";
+import cocalc from "@/public/assets/cocalc.webp";
 import ellipse from "@/public/assets/whiteEllipse.svg";
 import blueflag from "@/public/assets/blueflag.svg";
 import swirl from "@/public/assets/swirl.svg";
 import rightswirl from "@/public/assets/rightswirl.svg";
 import Image from "next/image";
-import rLogo from "@/public/assets/createR.svg";
-import desmosLogo from "@/public/assets/desmosLogo.svg";
-import quokkaLogo from "@/public/assets/quokka.svg";
-import wolfLogo from "@/public/assets/wolfram.svg";
+import rLogo from "@/public/assets/createR.webp";
+import desmosLogo from "@/public/assets/desmosLogo.webp";
+import wolfLogo from "@/public/assets/wolfram.webp";
 import star from "@/public/assets/star.svg";
-import cutieLogo from "@/public/assets/cutiehackLOGO.svg";
 import whiteStar from "@/public/assets/betterWhiteStar.svg";
-import yellowStar from "@/public/assets/betterYellowStar.svg";
 
 const Sponsors = () => {
   return (
@@ -37,17 +34,17 @@ const Sponsors = () => {
           <Image
             src={ellipse}
             alt="Cover"
-            className="z-2 absolute inset-0 left-[90px] top-[110px] h-[251px] w-[245px] object-fill"
+            className="z-2 absolute left-1/2 top-1/2 h-[250px] w-[250px] -translate-x-1/2 -translate-y-1/2"
           />
           <Image
             src={star}
             alt="star-icon"
-            className="z-15 absolute inset-0 left-[250px] top-[85px] h-[80px] w-[90px] object-fill"
+            className="z-15 absolute left-[250px] top-[85px] h-[80px] w-[90px] object-fill"
           />
           <Image
             src={coolerMaster}
             alt="coolMaster"
-            className="z-15 absolute inset-0 left-[90px] top-[100px] h-[251px] w-[245px] object-fill"
+            className="z-15 absolute left-1/2 top-1/2 h-[180px] w-[180px] -translate-x-1/2 -translate-y-1/2"
           />
         </div>
         <div className="relative">
@@ -59,18 +56,18 @@ const Sponsors = () => {
           <Image
             src={ellipse}
             alt="Cover"
-            className="z-2 absolute inset-0 left-[90px] top-[110px] h-[251px] w-[245px] object-fill"
+            className="z-2 absolute left-1/2 top-1/2 h-[250px] w-[250px] -translate-x-1/2 -translate-y-1/2"
+          />
+          <Image
+            src={cocalc}
+            alt="cocalc"
+            className="z-15 absolute left-1/2 top-1/2 h-[220px] w-[220px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-white object-contain"
           />
           <Image
             src={star}
             alt="star-icon"
             className="z-15 absolute inset-0 left-[250px] top-[85px] h-[80px] w-[90px] object-fill"
           />
-          <Image
-            src={cocalc}
-            alt="cocalc"
-            className="z-15 absolute inset-0 left-[100px] top-[100px] h-[251px] w-[220px] object-fill"
-          />
         </div>
         <div className="relative">
           <Image
@@ -81,7 +78,7 @@ const Sponsors = () => {
           <Image
             src={ellipse}
             alt="Cover"
-            className="z-2 absolute inset-0 left-[90px] top-[110px] h-[251px] w-[245px] object-fill"
+            className="z-2 absolute left-1/2 top-1/2 h-[250px] w-[250px] -translate-x-1/2 -translate-y-1/2"
           />
           <Image
             src={star}
@@ -91,91 +88,55 @@ const Sponsors = () => {
           <Image
             src={rLogo}
             alt="rLab"
-            className="z-15 absolute inset-0 left-[110px] top-[100px] h-[240px] w-[190px] object-fill"
+            className="z-15 absolute left-1/2 top-1/2 h-[220px] w-[220px] -translate-x-1/2 -translate-y-1/2 rounded-full bg-white object-contain"
           />
         </div>
       </div>
-
-      <div className="relative w-full">
-        <div className="lg:px[900px] relative grid grid-cols-1 lg:grid-cols-2">
+      <div className="relative flex w-full flex-col items-center justify-center lg:flex-row lg:gap-[130px]">
+        <Image
+          src={rightswirl}
+          alt="Cover"
+          className="rotate-220 absolute right-0 z-0 hidden w-[30%] overflow-auto md:block"
+        />
+        <div className="relative mb-10 w-[270px]">
           <Image
-            src={rightswirl}
-            alt="Cover"
-            className="rotate-220 absolute right-0 z-0 hidden w-[30%] overflow-auto md:block"
+            src={blueflag}
+            alt="flag"
+            className="z-20 -mb-[80px] ml-[190px]"
           />
-          <div className="relative mb-10 ml-[70px] w-[270px] lg:ml-[270px]">
-            <Image
-              src={blueflag}
-              alt="flag"
-              className="inset-0 z-20 -mb-[80px] ml-[190px]"
-            />
-            <Image
-              src={cutieLogo}
-              alt="flag"
-              className="z-15 absolute inset-0 left-[192px] h-[100px] w-[100px]"
-            />
-            <Image
-              src={whiteStar}
-              alt="flag"
-              className="z-15 absolute inset-0 left-[40px] top-[90px] h-[70px] w-[50px]"
-            />
-            <Image
-              src={ellipse}
-              alt="Cover"
-              className="-mt-2 h-[300px] w-[300px] object-fill"
-            />
+          <div className="relative h-[250px] w-[250px]">
+            <Image src={ellipse} alt="Cover" className="w-full" />
             <Image
               src={desmosLogo}
               alt="desmos"
-              className="z-1 absolute left-[50px] top-[130px] h-[240px] w-[190px] object-fill lg:left-[50px]"
+              className="z-1 absolute left-1/2 top-1/2 w-[190px] -translate-x-1/2 -translate-y-1/2 object-contain"
             />
           </div>
-          <div className="relative mb-10 ml-[70px] w-[270px]">
+          <Image
+            src={whiteStar}
+            alt="flag"
+            className="z-15 absolute inset-0 left-[40px] top-[90px] h-[70px] w-[50px]"
+          />
+        </div>
+        <div className="relative mb-10 w-[270px]">
+          <Image
+            src={blueflag}
+            alt="flag"
+            className="z-20 -mb-[80px] ml-[190px]"
+          />
+          <div className="relative h-[250px] w-[250px]">
+            <Image src={ellipse} alt="Cover" className="w-full" />
             <Image
-              src={blueflag}
-              alt="flag"
-              className="inset-0 z-20 -mb-[80px] ml-[190px]"
-            />
-            <Image
-              src={whiteStar}
-              alt="flag"
-              className="z-15 absolute inset-0 left-[40px] top-[90px] h-[70px] w-[50px]"
-            />
-            <Image
-              src={ellipse}
-              alt="Cover"
-              className="-mt-2 h-[300px] w-[300px] object-fill"
-            />
-            <Image
-              src={cutieLogo}
-              alt="flag"
-              className="z-1 absolute inset-0 left-[192px] h-[100px] w-[100px]"
-            />
-            <Image
-              src={quokkaLogo}
-              alt="quokka"
-              className="z-1 absolute left-[50px] top-[130px] h-[240px] w-[190px] object-fill md:left-[50px] lg:left-[50px]"
+              src={wolfLogo}
+              alt="wolfLogo"
+              className="z-1 absolute left-1/2 top-1/2 w-[150px] -translate-x-1/2 -translate-y-1/2 object-contain"
             />
           </div>
-          <div className="flex w-full justify-center md:block">
-            <div className="mt-3 w-[200px] md:ml-[120px] lg:ml-[595px]">
-              <Image
-                src={yellowStar}
-                alt="star"
-                className="z-15 absolute bottom-[200px] ml-[130px] w-[50px] scale-125 object-fill"
-              />
-              <Image
-                src={wolfLogo}
-                alt="wolf"
-                className="z-15 absolute bottom-[110px] ml-[50px] w-[100px] scale-125 object-fill"
-              />
-              <Image
-                src={ellipse}
-                alt="Cover"
-                className="-mt-2 h-[300px] w-[300px] object-fill"
-              />
-            </div>
-          </div>
+          <Image
+            src={whiteStar}
+            alt="flag"
+            className="z-15 absolute inset-0 left-[40px] top-[90px] h-[70px] w-[50px]"
+          />
         </div>
       </div>
     </div>

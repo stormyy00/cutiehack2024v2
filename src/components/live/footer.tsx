@@ -2,7 +2,6 @@ import Image from "next/image";
 import Moon from "@/public/assets/moon.svg";
 import Astronaut from "@/public/assets/astronauthappy.svg";
 import Flag from "@/public/assets/blueflag.svg";
-import LOGO from "@/public/assets/cutiehackLOGO.svg";
 import { Linkedin, Mail, Instagram } from "lucide-react";
 import Link from "next/link";
 
@@ -13,7 +12,7 @@ const Footer = () => {
         <Image
           src={Astronaut}
           alt="astroguy"
-          className="z-20 animate-jiggle-3s md:w-[150px]"
+          className="z-20 w-[100px] animate-jiggle-3s md:w-[180px]"
         />
         <div className="absolute right-[35%] top-[1%] animate-jiggle-3s md:right-[45%]">
           <span className="flex -rotate-45 flex-col gap-3">
@@ -48,12 +47,7 @@ const Footer = () => {
       <Image
         src={Flag}
         alt="Flag"
-        className="absolute right-[26%] top-[22.5%] z-0 hidden rotate-[23deg] md:block"
-      />
-      <Image
-        src={LOGO}
-        alt="CutieHack 2024"
-        className="absolute right-[25%] top-[26%] z-0 hidden w-[7%] rotate-[23deg] md:block"
+        className="absolute right-[26%] top-[28%] z-0 hidden rotate-[23deg] md:block"
       />
       <div className="absolute bottom-0 z-20 flex w-full justify-center text-lg font-semibold text-black">
         Made with 🧡 by the Cutiehack team
