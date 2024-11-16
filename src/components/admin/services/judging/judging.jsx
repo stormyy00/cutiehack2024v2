@@ -12,7 +12,7 @@ const Judging = () => {
 
   return (
     <div className="flex h-full flex-col gap-3 py-4 font-poppins">
-      <Label className="pr-5 text-2xl font-bold">Judging</Label>
+      <Label className="pr-5 text-2xl font-bold text-white">Judging</Label>
       <Toolbar
         data={teams}
         setData={setTeams}
@@ -22,11 +22,11 @@ const Judging = () => {
         judgesView={judges}
         setJudgesView={setJudges}
       />
-      <Label className="pr-5 text-2xl font-bold">
+      <Label className="pr-5 text-2xl font-bold text-white">
         {view ? "Judges" : "Teams"}
       </Label>
       {filters === null || filters.length === 0 ? (
-        <div className="flex flex-grow items-center justify-center">
+        <div className="flex flex-grow items-center justify-center text-white">
           {view ? "No Judges Available" : "No Teams Available"}
         </div>
       ) : (

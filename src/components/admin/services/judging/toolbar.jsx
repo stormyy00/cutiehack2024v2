@@ -235,7 +235,7 @@ const Toolbar = ({
         className="flex w-full flex-col justify-between gap-2 sm:flex-row sm:items-center"
         onSubmit={generate}
       >
-        <div className="flex flex-row items-center gap-2 pb-3 pl-2">
+        <div className="flex flex-row items-center gap-2 pb-3 pl-2 text-white">
           <InputOTP
             maxLength={2}
             value={input.rotations}
@@ -250,7 +250,9 @@ const Toolbar = ({
         </div>
 
         <div className="flex flex-row justify-center gap-3">
-          <Button onClick={generate}>generate</Button>
+          <Button variant={"back"} onClick={generate}>
+            generate
+          </Button>
           <Button
             variant="destructive"
             onClick={handleReset}
@@ -260,6 +262,7 @@ const Toolbar = ({
           </Button>
 
           <Button
+            variant={"back"}
             onClick={handleView}
             disabled={!data || data.some(({ rounds }) => rounds.length === 0)}
           >
@@ -267,7 +270,9 @@ const Toolbar = ({
           </Button>
         </div>
         <div className="pl-2">
-          <Label htmlFor="search">Search</Label>
+          <Label htmlFor="search" className="text-white">
+            Search
+          </Label>
           <InputWithClear
             id="search"
             value={search}

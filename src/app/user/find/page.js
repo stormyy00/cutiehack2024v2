@@ -1,5 +1,5 @@
 import ProtectedPage from "@/components/protected";
-import Find from "@/components/user/find";
+// import Find from "@/components/user/find";
 
 const Page = () => {
   return (
@@ -9,7 +9,7 @@ const Page = () => {
         participants: [1, 0, -1],
       }}
     >
-      <Find />
+      {/* <Find /> */}
     </ProtectedPage>
   );
 };

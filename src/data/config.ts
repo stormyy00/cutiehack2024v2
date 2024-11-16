@@ -29,7 +29,7 @@ const data: config = {
   domain: "https://www.cutiehack.com",
   instagram: "https://www.instagram.com/cutiehack_ucr/",
   linkedin: "https://www.linkedin.com/company/citrus-hack/",
-  discord: "https://www.discord.com",
+  discord: "https://discord.gg/dwscZyrw",
   heart: "🧡",
 };
 

@@ -19,11 +19,11 @@ import Hannah from "@/public/board/hannah-min.png";
 import Taaha from "@/public/board/taaha-min.png";
 
 export const COMMITTEES = {
-  Operations: ["First Last", "First Last", "First Last", "First Last"],
-  Sponsorship: ["First Last", "First Last", "First Last", "First Last"],
-  Marketing: ["First Last", "First Last", "First Last", "First Last"],
-  Software: ["Brandon Sun", "First Last", "First Last", "First Last"],
-  "UI / UX": ["First Last", "First Last", "First Last", "First Last"],
+  Operations: [],
+  Sponsorship: ["Karina Flores Angel", "Ramich Wori"],
+  Marketing: ["Angel Avalos"],
+  Software: ["Sean Quiambao", "Sachin Chopra", "Menthy Wu"],
+  "UI / UX": [],
 };
 
 export const DIRECTORS = [
