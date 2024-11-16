@@ -2,7 +2,7 @@ import Alica from "@/public/judges/Alice_Thai.webp";
 import Bobby from "@/public/judges/Bobby_Lerias.webp";
 import Bianca from "@/public/judges/Bianca_Rein.webp";
 import Cameron from "@/public/judges/Cameron_Tsai.webp";
-import Divyank from "@/public/judges/divyank.jpeg";
+import Divyank from "@/public/judges/divyank.webp";
 import Eliot from "@/public/judges/Eliot_Lee.webp";
 import Ethan from "@/public/judges/Ethan_Roos.webp";
 import Jerry from "@/public/judges/Jerry_LI.webp";
