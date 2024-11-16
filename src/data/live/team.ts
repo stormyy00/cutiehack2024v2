@@ -1,22 +1,22 @@
-import JonDarius from "@/public/board/JonDarius.webp";
-import Minnoli from "@/public/board/Minnoli.webp";
+import JonDarius from "@/public/board/webp (1)-min.webp";
+import Minnoli from "@/public/board/Minnoli1-min.webp";
 
 import Allison from "@/public/board/Allison.webp";
-import Amir from "@/public/board/Amir.webp";
-import Ananya from "@/public/board/Ananya.webp";
-import Chandrahass from "@/public/board/Chandrahaas.webp";
-import Charlette from "@/public/board/Charlette.webp";
-import Cris from "@/public/board/Cris.webp";
-import Huong from "@/public/board/Huong.webp";
+import Amir from "@/public/board/Amir-min.webp";
+import webp from "@/public/board/webp (1)-min.webp";
+import Chandrahass from "@/public/board/Chandrahaas-min.webp";
+import Charlette from "@/public/board/Charlette-min.webp";
+import Cris from "@/public/board/Cris-min.webp";
+import Huong from "@/public/board/Huong-min.webp";
 import JonathanT from "@/public/board/Jonathan.webp";
-import Karan from "@/public/board/Karan.webp";
-import Mahi from "@/public/board/Mahiyat.webp";
-import Rhea from "@/public/board/Rhea.webp";
-import Vishra from "@/public/board/Vishra.webp";
-import BSun from "@/public/board/bsun.webp";
-import Dylan from "@/public/board/dylan.webp";
-import Hannah from "@/public/board/hannah.webp";
-import Taaha from "@/public/board/taaha.webp";
+import Karan from "@/public/board/Karan-min.webp";
+import Mahi from "@/public/board/Mahiyat-min.webp";
+import Rhea from "@/public/board/Rhea-min.webp";
+import Vishra from "@/public/board/Vishra-min.webp";
+import BSun from "@/public/board/bsun-min.webp";
+import Dylan from "@/public/board/dylan-min.webp";
+import Hannah from "@/public/board/hannah-min.webp";
+import Taaha from "@/public/board/taaha-min.webp";
 
 export const COMMITTEES = {
   Operations: [],
@@ -99,9 +99,9 @@ export const TEAMS = [
   },
   // UI / UX
   {
-    name: "Ananya Dharanikota",
+    name: "webp Dharanikota",
     link: "/",
-    image: Ananya,
+    image: webp,
     team: "UI/UX",
   },
   {
