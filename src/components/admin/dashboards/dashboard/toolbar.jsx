@@ -188,7 +188,7 @@ const Toolbar = ({
           value={value}
         />
 
-        <div>
+        <div className="text-white">
           Rows:<span className="mx-2">{meta.total}</span>
         </div>
         <RotateCcw

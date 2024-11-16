@@ -25,7 +25,7 @@ const data: config = {
   date: new Date("2024-11-16T07:00:00"),
   end: new Date("2024-11-16T19:30:00"),
   packet: "",
-  devpost: "https://devpost.com/",
+  devpost: "https://cutie-hack-2024-23083.devpost.com/",
   domain: "https://www.cutiehack.com",
   instagram: "https://www.instagram.com/cutiehack_ucr/",
   linkedin: "https://www.linkedin.com/company/citrus-hack/",

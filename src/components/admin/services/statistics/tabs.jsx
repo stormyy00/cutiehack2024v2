@@ -1,7 +1,7 @@
 const Tabs = ({ events }) => {
   return (
     <>
-      <div className="grid w-full grid-cols-1 gap-4 p-4 md:grid-cols-4">
+      <div className="grid w-full grid-cols-1 gap-4 p-4 text-black md:grid-cols-4">
         {Object.entries(events).map(([title, count], index) => (
           <div
             className="flex w-full flex-col justify-center rounded-lg bg-white p-2 text-center drop-shadow-md"
