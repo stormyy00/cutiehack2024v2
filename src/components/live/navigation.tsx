@@ -76,12 +76,12 @@ const Navigation = () => {
               {item.name}
             </Scroll>
           ))}
-          <Link
+          {/* <Link
             href={"/form/participant"}
             className="border-custom-white mt-2 w-fit border p-1 px-2 text-center shadow-custom-white"
           >
             REGISTER
-          </Link>
+          </Link> */}
           {session ? (
             Object.keys(session.user.roles).includes("participants") && (
               <Link
