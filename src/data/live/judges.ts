@@ -5,7 +5,7 @@ import Cameron from "@/public/judges/Cameron_Tsai.webp";
 import Divyank from "@/public/judges/divyank.jpeg";
 import Eliot from "@/public/judges/Eliot_Lee.webp";
 import Ethan from "@/public/judges/Ethan_Roos.webp";
-import Jerry from "@/public/judges/jerbear.png";
+import Jerry from "@/public/judges/jerry.png";
 import Joshua from "@/public/judges/Joshua_Candelaria.webp";
 import Karan from "@/public/judges/Karan_Bhogal.webp";
 import Mariam from "@/public/judges/Mariam_Golwalla.webp";
