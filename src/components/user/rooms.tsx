@@ -1,4 +1,10 @@
-const rooms: string[] = ["WCH 127", "WCH 110", "WCH 130", "Byte", "WCH 129"];
+const rooms: string[] = [
+  "WCH 127",
+  "WCH 203",
+  "Bytes",
+  "Bourns A265",
+  "Bourns A171",
+];
 
 const Rooms = (): React.ReactNode => {
   return (
