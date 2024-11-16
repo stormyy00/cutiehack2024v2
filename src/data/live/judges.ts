@@ -21,12 +21,12 @@ export const JUDGES = [
   {
     name: "Alicia Thai ",
     image: Alica,
-    title: "Software Engineer @ Google",
+    title: "",
   },
   {
     name: "Bianca Rein Del Rosario",
     image: Bianca,
-    title: "Consultant",
+    title: "Consultant @ EY",
   },
   {
     name: "Bobby Lerias",
@@ -36,7 +36,7 @@ export const JUDGES = [
   {
     name: "Cameron Tsai",
     image: Cameron,
-    title: "Recent College Graduate",
+    title: "",
   },
   {
     name: "Eliot Lee",
@@ -46,7 +46,7 @@ export const JUDGES = [
   {
     name: "Ethan Roos",
     image: Ethan,
-    title: "CS Grad Student",
+    title: "CS10C Teaching Assistant",
   },
   {
     name: "Jerry Li",
@@ -56,7 +56,7 @@ export const JUDGES = [
   {
     name: "Joshua Candelaria",
     image: Joshua,
-    title: "Graduate Student",
+    title: "CS100 Teaching Assistant",
   },
   {
     name: "Karan Bhogal",
@@ -77,12 +77,12 @@ export const JUDGES = [
   {
     name: "Raidah Fairooz",
     image: Raidah,
-    title: "BCOE Alumni",
+    title: "",
   },
   {
     name: "Rachit Prajapati",
     image: Rachit,
-    title: "Graduate student",
+    title: "",
   },
   {
     name: "Suryateja Duvvuri",
@@ -92,17 +92,17 @@ export const JUDGES = [
   {
     name: "Samarth Srinivasa",
     image: Samarth,
-    title: "Hackathon Lead",
+    title: "Former Hackathon Lead",
   },
   {
     name: "Sathya Srinivasan",
     image: Sathya,
-    title: "Hackathon Lead",
+    title: "Web Dev Manager @ UCOS",
   },
   {
     name: "Vincent Raimondi",
     image: Vincent,
-    title: "Software Engineer",
+    title: "Software Engineer @ UPS",
   },
   {
     name: "Yogitha Shastri",
