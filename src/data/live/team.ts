@@ -19,16 +19,11 @@ import Hannah from "@/public/board/hannah.webp";
 import Taaha from "@/public/board/taaha.webp";
 
 export const COMMITTEES = {
-  Operations: ["First Last", "First Last", "First Last", "First Last"],
-  Sponsorship: [
-    "Karina Flores Angel",
-    "First Last",
-    "First Last",
-    "First Last",
-  ],
-  Marketing: ["Angel Avalos", "First Last", "First Last", "First Last"],
-  Software: ["Sean Quiambao", "Sachin Chopra"],
-  "UI / UX": ["First Last", "First Last", "First Last", "First Last"],
+  Operations: [],
+  Sponsorship: ["Karina Flores Angel", "Ramich Wori"],
+  Marketing: ["Angel Avalos"],
+  Software: ["Sean Quiambao", "Sachin Chopra", "Menthy Wu"],
+  "UI / UX": [],
 };
 
 export const DIRECTORS = [
