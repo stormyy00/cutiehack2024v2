@@ -1,9 +1,9 @@
-import JonDarius from "@/public/board/webp (1)-min.webp";
+import JonDarius from "@/public/board/JonDarius1-min.png";
 import Minnoli from "@/public/board/Minnoli1-min.webp";
 
 import Allison from "@/public/board/Allison.webp";
 import Amir from "@/public/board/Amir-min.webp";
-import webp from "@/public/board/webp (1)-min.webp";
+import Ananya from "@/public/board/Ananya-min.png";
 import Chandrahass from "@/public/board/Chandrahaas-min.webp";
 import Charlette from "@/public/board/Charlette-min.webp";
 import Cris from "@/public/board/Cris-min.webp";
@@ -99,9 +99,9 @@ export const TEAMS = [
   },
   // UI / UX
   {
-    name: "webp Dharanikota",
+    name: "Ananya Dharanikota",
     link: "/",
-    image: webp,
+    image: Ananya,
     team: "UI/UX",
   },
   {
