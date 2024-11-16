@@ -2,6 +2,7 @@ import Alica from "@/public/judges/Alice_Thai.webp";
 import Bobby from "@/public/judges/Bobby_Lerias.webp";
 import Bianca from "@/public/judges/Bianca_Rein.webp";
 import Cameron from "@/public/judges/Cameron_Tsai.webp";
+import Divyank from "@/public/judges/divyank.jpeg";
 import Eliot from "@/public/judges/Eliot_Lee.webp";
 import Ethan from "@/public/judges/Ethan_Roos.webp";
 import Jerry from "@/public/judges/Jerry_LI.webp";
@@ -39,6 +40,11 @@ export const JUDGES = [
     title: "",
   },
   {
+    name: "Divyank Shah",
+    image: Divyank,
+    title: "Former ACM President",
+  },
+  {
     name: "Eliot Lee",
     image: Eliot,
     title: "Former ACM Vice President",
@@ -51,7 +57,7 @@ export const JUDGES = [
   {
     name: "Jerry Li",
     image: Jerry,
-    title: "Vice President of ACM",
+    title: "ACM Vice President",
   },
   {
     name: "Joshua Candelaria",
@@ -87,7 +93,7 @@ export const JUDGES = [
   {
     name: "Suryateja Duvvuri",
     image: Surya,
-    title: "Professional Development Chair",
+    title: "ACM Professional Dev Chair",
   },
   {
     name: "Samarth Srinivasa",
