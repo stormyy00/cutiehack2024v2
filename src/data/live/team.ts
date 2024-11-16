@@ -1,22 +1,22 @@
-import JonDarius from "@/public/board/JonDarius1 (1)-min.png";
-import Minnoli from "@/public/board/Minnoli1-min.png";
+import JonDarius from "@/public/board/webp (1)-min.webp";
+import Minnoli from "@/public/board/Minnoli1-min.webp";
 
 import Allison from "@/public/board/Allison.webp";
-import Amir from "@/public/board/Amir-min.png";
-import Ananya from "@/public/board/Ananya (1)-min.png";
-import Chandrahass from "@/public/board/Chandrahaas-min.png";
-import Charlette from "@/public/board/Charlette-min.png";
-import Cris from "@/public/board/Cris-min.png";
-import Huong from "@/public/board/Huong-min.png";
+import Amir from "@/public/board/Amir-min.webp";
+import webp from "@/public/board/webp (1)-min.webp";
+import Chandrahass from "@/public/board/Chandrahaas-min.webp";
+import Charlette from "@/public/board/Charlette-min.webp";
+import Cris from "@/public/board/Cris-min.webp";
+import Huong from "@/public/board/Huong-min.webp";
 import JonathanT from "@/public/board/Jonathan.webp";
-import Karan from "@/public/board/Karan-min.png";
-import Mahi from "@/public/board/Mahiyat-min.png";
-import Rhea from "@/public/board/Rhea-min.png";
-import Vishra from "@/public/board/Vishra-min.png";
-import BSun from "@/public/board/bsun-min.png";
-import Dylan from "@/public/board/dylan-min.png";
-import Hannah from "@/public/board/hannah-min.png";
-import Taaha from "@/public/board/taaha-min.png";
+import Karan from "@/public/board/Karan-min.webp";
+import Mahi from "@/public/board/Mahiyat-min.webp";
+import Rhea from "@/public/board/Rhea-min.webp";
+import Vishra from "@/public/board/Vishra-min.webp";
+import BSun from "@/public/board/bsun-min.webp";
+import Dylan from "@/public/board/dylan-min.webp";
+import Hannah from "@/public/board/hannah-min.webp";
+import Taaha from "@/public/board/taaha-min.webp";
 
 export const COMMITTEES = {
   Operations: [],
@@ -99,9 +99,9 @@ export const TEAMS = [
   },
   // UI / UX
   {
-    name: "Ananya Dharanikota",
+    name: "webp Dharanikota",
     link: "/",
-    image: Ananya,
+    image: webp,
     team: "UI/UX",
   },
   {
