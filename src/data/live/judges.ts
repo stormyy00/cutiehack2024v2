@@ -1,8 +1,8 @@
 import Alica from "@/public/judges/Alice_Thai.webp";
 import Bobby from "@/public/judges/Bobby_Lerias.webp";
-import Bianca from "@/public/judges/Bianca_Rein.png";
+import Bianca from "@/public/judges/Bianca_Rein.webp";
 import Cameron from "@/public/judges/Cameron_Tsai.webp";
-import Eliot from "@/public/judges/Eliot_Lee.png";
+import Eliot from "@/public/judges/Eliot_Lee.webp";
 import Ethan from "@/public/judges/Ethan_Roos.webp";
 import Jerry from "@/public/judges/Jerry_LI.webp";
 import Joshua from "@/public/judges/Joshua_Candelaria.webp";
@@ -13,8 +13,8 @@ import Rachit from "@/public/judges/Rachit_Prajapati.webp";
 import Raidah from "@/public/judges/Raidah_Fairooz.webp";
 import Samarth from "@/public/judges/Samarth_Srinivasa.webp";
 import Sathya from "@/public/judges/Sathya_Srinivasan.webp";
-import Surya from "@/public/judges/Suryateja_Duvvuri.png";
-import Vincent from "@/public/judges/Vincent_Raimondi.png";
+import Surya from "@/public/judges/Suryateja_Duvvuri.webp";
+import Vincent from "@/public/judges/Vincent_Raimondi.webp";
 import Yogitha from "@/public/judges/Yogitha_Shastri.webp";
 
 export const JUDGES = [
