@@ -1,9 +1,9 @@
-import JonDarius from "@/public/board/JonDarius1-min.png";
+import JonDarius from "@/public/board/JonDarius1-min.webp";
 import Minnoli from "@/public/board/Minnoli1-min.webp";
 
 import Allison from "@/public/board/Allison.webp";
 import Amir from "@/public/board/Amir-min.webp";
-import Ananya from "@/public/board/Ananya-min.png";
+import Ananya from "@/public/board/Ananya-min.webp";
 import Chandrahass from "@/public/board/Chandrahaas-min.webp";
 import Charlette from "@/public/board/Charlette-min.webp";
 import Cris from "@/public/board/Cris-min.webp";
