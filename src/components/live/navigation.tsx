@@ -1,7 +1,7 @@
 "use client";
 
 // import { signIn, useSession } from "next-auth/react";
-import Link from "next/link";
+// import Link from "next/link";
 import { items } from "@/data/live/navigation";
 import { useState } from "react";
 import { Menu } from "lucide-react";
