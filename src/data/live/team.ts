@@ -19,11 +19,11 @@ import Hannah from "@/public/board/hannah.webp";
 import Taaha from "@/public/board/taaha.webp";
 
 export const COMMITTEES = {
-  Operations: [],
+  // Operations: [],
   Sponsorship: ["Karina Flores Angel", "Ramich Wori"],
   Marketing: ["Angel Avalos"],
   Software: ["Sean Quiambao", "Sachin Chopra", "Menthy Wu"],
-  "UI / UX": [],
+  // "UI / UX": [],
 };
 
 export const DIRECTORS = [
