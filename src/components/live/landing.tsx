@@ -14,7 +14,7 @@ const Landing = () => {
       className="relative mt-5 flex w-full flex-col bg-cutie-blue-300 text-white"
     >
       <div className="mt-[9vh] flex w-full items-end justify-center">
-        <div className="flex w-full flex-col items-center justify-end">
+        <div className="my-10 flex w-full flex-col items-center justify-end">
           <p className="my-1 text-base font-bold text-white md:text-4xl">
             November 16, 2024
           </p>

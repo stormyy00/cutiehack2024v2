@@ -3,13 +3,13 @@ import About from "./about";
 import Schedule from "./schedule";
 import Tracks from "./tracks";
 import Sponsors from "./sponsors";
-// import Committees from "./committees";
+import Committees from "./committees";
 import Judges from "./judges";
 import FAQ from "./faq";
 import Footer from "./footer";
 import Navigation from "./navigation";
 import Stars from "./stars";
-// import Team from "./team/team";
+import Team from "./team/team";
 
 const Live = () => {
   return (
@@ -20,8 +20,8 @@ const Live = () => {
       <Tracks />
       <Schedule />
       <Sponsors />
-      {/* <Team /> */}
-      {/* <Committees /> */}
+      <Team />
+      <Committees />
       <Judges />
       <FAQ />
       <Footer />
