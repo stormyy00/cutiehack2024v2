@@ -1,6 +1,6 @@
 "use client";
 
-import { signIn, useSession } from "next-auth/react";
+// import { signIn, useSession } from "next-auth/react";
 import Link from "next/link";
 import { items } from "@/data/live/navigation";
 import { useState } from "react";
@@ -8,7 +8,7 @@ import { Menu } from "lucide-react";
 import { Link as Scroll } from "react-scroll";
 
 const Navigation = () => {
-  const { data: session } = useSession();
+  // const { data: session } = useSession();
   const [isOpen, setIsOpen] = useState(false);
 
   return (
@@ -34,7 +34,7 @@ const Navigation = () => {
         >
           REGISTER
         </Link> */}
-        {session ? (
+        {/* {session ? (
           Object.keys(session.user.roles).includes("participants") && (
             <Link
               href={"/user"}
@@ -50,7 +50,7 @@ const Navigation = () => {
           >
             LOGIN
           </div>
-        )}
+        )} */}
       </div>
 
       {/* Mobile Nav */}
@@ -82,7 +82,7 @@ const Navigation = () => {
           >
             REGISTER
           </Link> */}
-          {session ? (
+          {/* {session ? (
             Object.keys(session.user.roles).includes("participants") && (
               <Link
                 href={"/user"}
@@ -102,7 +102,7 @@ const Navigation = () => {
             >
               LOGIN
             </div>
-          )}
+          )} */}
         </div>
       )}
     </div>
