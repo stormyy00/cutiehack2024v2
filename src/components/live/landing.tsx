@@ -34,10 +34,10 @@ const Landing = () => {
             <Apply text={"VOLUNTEER"} link={"/form/volunteer"} />
           </div>
           <Link
-            href={"/form/judge"}
+            href={"https://cutie-hack-2024-23083.devpost.com/project-gallery"}
             className="z-10 rounded-3xl bg-[#9E0C7A] px-9 py-2 font-righteous text-sm font-medium hover:opacity-75 md:text-2xl"
           >
-            Judge CutieHack
+            WINNERS
           </Link>
         </div>
       </div>
