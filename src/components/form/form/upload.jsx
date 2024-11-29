@@ -55,13 +55,11 @@ const Upload = ({ field, user, setUser, text, maxSize, types, required }) => {
         {!file && (
           <label
             htmlFor="dropzone-file"
-            className="flex h-fit w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 border-gray-300 bg-gray-50 hover:bg-gray-100"
+            className="flex h-fit w-full cursor-pointer flex-col items-center justify-center rounded-lg border-2 bg-cutie-purple-100 hover:bg-cutie-purple-200"
           >
             <div className="flex flex-col items-center justify-center py-4">
-              <LucideUpload className="mb-2 text-3xl text-cutie-purple-200" />
-              <p className="text-sm font-semibold text-gray-500">
-                Upload from my computer
-              </p>
+              <LucideUpload className="mb-2 text-3xl text-white" />
+              <p className="text-sm text-white">Upload from my computer</p>
             </div>
             <div className="w-full" data-cy="upload-input">
               <input
@@ -76,7 +74,7 @@ const Upload = ({ field, user, setUser, text, maxSize, types, required }) => {
         )}
         {file && (
           <div
-            className="my-2 flex w-full items-center justify-between bg-gray-200 px-2 py-2"
+            className="my-2 flex w-full items-center justify-between border-b-2 border-white bg-[#5661C6] px-2 py-2"
             data-cy="upload-success"
           >
             <div className="flex items-center">
@@ -91,12 +89,12 @@ const Upload = ({ field, user, setUser, text, maxSize, types, required }) => {
               {file.type.split("/")[0] === "image" && (
                 <Eye
                   onClick={() => setShowModal(true)}
-                  className="mr-2 text-gray-500 hover:cursor-pointer hover:text-gray-800"
+                  className="text-whte mr-2 hover:cursor-pointer hover:text-gray-800"
                 />
               )}
 
               <X
-                className="text-gray-500 hover:cursor-pointer hover:text-red-600"
+                className="text-white hover:cursor-pointer hover:text-cutie-violet"
                 onClick={() => setFile(null)}
                 data-cy="upload-cancel"
               />

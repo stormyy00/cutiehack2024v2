@@ -37,9 +37,10 @@ const VirtualizedContent = ({ items, setSelected, userFn, searchable }) => {
       className="dropdown-content h-fit max-h-[400px] w-[var(--radix-dropdown-menu-trigger-width)] overflow-y-scroll pt-0"
       data-cy="select-menu"
     >
-      <div className="sticky top-0 z-50 bg-white pt-1">
+      <div className="sticky top-0 z-50 bg-gradient-to-r from-cutie-purple-100 to-cutie-purple-200 pt-1">
         {searchable && (
           <Input
+            className="bg-gradient-to-r from-cutie-purple-100 to-cutie-purple-200 text-white placeholder:text-white"
             placeholder="Search"
             onKeyDown={(event) => event.stopPropagation()}
             onChange={handleInput}
@@ -97,7 +98,10 @@ const Select = ({
         </p>
       )}
       <DropdownMenu className="max-w-full">
-        <DropdownMenuTrigger className="w-full" asChild>
+        <DropdownMenuTrigger
+          className="w-full bg-gradient-to-r from-cutie-purple-100 to-cutie-purple-200"
+          asChild
+        >
           <Button
             data-cy="select-toggle"
             className="w-full justify-between whitespace-normal break-words"
@@ -107,7 +111,7 @@ const Select = ({
             {selected ? (
               selected
             ) : (
-              <p className="font-normal text-cutie-violet">{placeholder}</p>
+              <p className="font-normal text-white">{placeholder}</p>
             )}
             <ChevronDown />
           </Button>
