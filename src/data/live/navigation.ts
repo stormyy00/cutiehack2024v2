@@ -14,11 +14,11 @@ export const items = [
     link: "#tracks",
     id: "tracks",
   },
-  {
-    name: "SCHEDULE",
-    link: "#schedule",
-    id: "schedule",
-  },
+  // {
+  //   name: "SCHEDULE",
+  //   link: "#schedule",
+  //   id: "schedule",
+  // },
   {
     name: "FAQ",
     link: "#faq",
